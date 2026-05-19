@@ -1,0 +1,351 @@
+Patient_ID,Age,Gender,Ethnicity,Diabetes_Type,Duration_Years,BMI,Systolic_BP_mmHg,Diastolic_BP_mmHg,Fasting_Glucose_mgdL,Postprandial_Glucose_mgdL,HbA1c_Percent,Total_Cholesterol_mgdL,LDL_mgdL,HDL_mgdL,Triglycerides_mgdL,Creatinine_mgdL,eGFR_mLmin,Urine_Albumin_mgL,Insulin,Metformin,SGLT2_Inhibitor,GLP1_Agonist,Statin,Antihypertensive,Retinopathy,Neuropathy,Nephropathy,Cardiovascular_Complication,Smoking_Status,Alcohol_Use,Physical_Activity,Diet_Adherence,Last_Visit_Date
+PT-0001,63,Male,Hispanic,Type 2,16,20.7,134,85,171.9,212.4,5.7,202.8,69.7,61.1,182.8,1.36,92.3,2.1,No,No,No,No,Yes,Yes,Moderate,None,Macroalbuminuria,None,Never,None,Sedentary,Good,2024-12-15
+PT-0002,76,Male,Asian,Type 2,2,31.8,165,75,221,288.5,9.5,164.7,135,43.5,50,0.86,81.6,2.6,Yes,No,Yes,No,No,No,None,Peripheral,None,None,Former,Moderate,Active,Good,2024-07-17
+PT-0003,53,Female,Caucasian,LADA,12,20.3,101,64,139.7,195,9.5,149.8,130.8,48.2,232.4,0.78,91.4,8.3,Yes,Yes,No,No,Yes,Yes,None,None,Microalbuminuria,Hypertension,Never,Occasional,Sedentary,Excellent,2024-06-18
+PT-0004,39,Male,Asian,LADA,13,30.2,134,69,106,159.9,5.9,219.9,50,33.9,244.9,1.14,73.3,1.3,No,Yes,Yes,No,No,No,None,None,None,Hypertension,Current,None,Light,Fair,2024-08-12
+PT-0005,67,Male,Caucasian,Type 2,23,30.9,177,109,189.3,256.3,9.5,220.2,74.3,68.3,100.5,1.11,45.3,54.4,No,Yes,Yes,Yes,Yes,Yes,Mild,Peripheral,None,Heart Failure,Never,Moderate,Light,Good,2024-11-26
+PT-0006,32,Male,Asian,Type 2,29,23,119,62,140.2,187.5,10.8,162.8,105.1,70.8,213.6,1.34,101.4,51.4,No,Yes,No,No,No,No,None,Autonomic,Microalbuminuria,None,Former,None,Light,Excellent,2024-06-30
+PT-0007,45,Male,Hispanic,Gestational,17,33.4,109,72,70,127.8,6,230.8,104.5,49.9,111.5,0.97,60.3,5.8,No,No,No,No,Yes,No,Mild,Peripheral,None,Hypertension,Former,None,Moderate,Poor,2024-04-16
+PT-0008,63,Male,Caucasian,Type 2,3,19.1,124,102,178.9,226.8,6.3,169.7,72.7,60.3,187.8,0.4,51.6,72.3,No,Yes,No,No,Yes,No,Moderate,Autonomic,None,CAD,Former,Occasional,Sedentary,Good,2024-05-16
+PT-0009,82,Male,Hispanic,Type 1,17,30.1,165,108,123.6,178.9,9.8,205.1,128.6,50.1,78.8,0.88,70.6,6.7,Yes,Yes,No,No,No,Yes,None,None,None,Hypertension,Current,Moderate,Light,Good,2024-04-23
+PT-0010,43,Female,Caucasian,Type 2,29,28.3,124,89,141.4,179.7,8.5,227.8,123.8,32,50,1.5,52.2,14.3,No,No,Yes,No,Yes,Yes,Severe,Peripheral,None,None,Former,Moderate,Sedentary,Poor,2024-02-08
+PT-0011,47,Female,Hispanic,Type 2,4,27.8,153,104,158.3,159.5,9,193.7,108.2,43.1,149.4,0.95,64.6,11.5,No,No,Yes,Yes,Yes,No,Severe,None,Microalbuminuria,None,Current,Heavy,Active,Excellent,2024-03-11
+PT-0012,35,Male,Caucasian,Type 2,24,22,132,65,152.6,199.9,8.6,213.2,88.5,49.6,170.1,0.98,83.6,18.6,No,Yes,No,No,Yes,Yes,None,None,None,None,Never,Moderate,Moderate,Good,2024-12-23
+PT-0013,35,Female,Caucasian,Type 2,15,23.3,135,76,173.4,251.9,8.7,174.3,151.7,42.5,148.2,1.59,83.7,11.8,No,Yes,Yes,No,Yes,No,None,Peripheral,Microalbuminuria,None,Never,None,Active,Poor,2024-02-13
+PT-0014,48,Female,Caucasian,Type 2,0,37.4,113,104,127.6,196.1,5.6,187.1,172.9,45.4,85.3,0.74,52.6,26.9,Yes,Yes,No,No,Yes,Yes,Severe,Peripheral,None,Hypertension,Never,None,Sedentary,Poor,2024-05-17
+PT-0015,77,Female,Hispanic,Type 2,20,35.2,164,78,165.5,234.8,9.9,186.8,98.1,46.9,148,0.4,62.8,20.9,No,Yes,No,No,No,No,Severe,Peripheral,Macroalbuminuria,None,Never,Moderate,Sedentary,Poor,2024-12-09
+PT-0016,60,Female,Caucasian,Type 2,13,32.6,179,101,134.6,209.3,10.1,165.1,93.6,47,201.5,1.02,101.9,172.4,No,Yes,No,Yes,Yes,Yes,None,Peripheral,None,None,Never,None,Sedentary,Fair,2024-10-16
+PT-0017,64,Male,African American,Type 2,14,33.7,153,94,174.6,226.4,7.6,187.9,132.2,48.6,176.4,0.86,87.4,2.3,No,Yes,No,No,Yes,No,None,Peripheral,Microalbuminuria,Hypertension,Never,Occasional,Sedentary,Fair,2024-06-23
+PT-0018,48,Female,Asian,Gestational,8,33.2,151,105,169.6,223.5,7.9,133.1,102.5,35.3,194.6,0.62,120,6.1,Yes,No,No,Yes,Yes,No,None,None,Microalbuminuria,CAD,Never,Occasional,Sedentary,Fair,2024-09-15
+PT-0019,27,Female,Caucasian,Type 2,14,26.7,102,85,107.6,145.2,5.2,175.4,110.1,39.4,126.4,1.01,104.5,2.2,Yes,Yes,No,No,No,Yes,Severe,None,None,Hypertension,Never,None,Moderate,Fair,2024-03-28
+PT-0020,46,Male,Other,Type 2,16,28.8,140,64,188.4,232.1,8.9,183.6,140.9,32.6,273.7,1.35,103.6,39.3,Yes,Yes,Yes,No,No,Yes,None,Peripheral,Macroalbuminuria,Hypertension,Never,Moderate,Sedentary,Excellent,2024-04-14
+PT-0021,77,Male,Caucasian,Type 2,24,20.4,105,88,123.6,185.9,9,184.8,50,59.7,85.9,1.1,40.3,2.2,No,Yes,Yes,Yes,Yes,Yes,None,None,Microalbuminuria,None,Current,Occasional,Light,Fair,2024-02-08
+PT-0022,26,Female,Caucasian,Type 2,23,28,124,96,177.3,251.4,7.9,185.3,161.1,22.7,219,1.25,94.1,72.4,Yes,Yes,No,No,Yes,No,Moderate,None,None,None,Never,Occasional,Moderate,Poor,2024-01-05
+PT-0023,48,Female,Caucasian,Type 2,3,35,112,79,159.7,206.9,10,192.5,117.5,61.8,274.6,2.01,73.7,28.7,Yes,No,No,Yes,No,No,None,None,None,None,Former,Heavy,Moderate,Fair,2024-01-13
+PT-0024,68,Female,Caucasian,Gestational,11,24.9,107,108,218.5,259.5,7.4,214.2,100.6,64.6,218.5,0.93,61.2,29.9,No,Yes,No,Yes,Yes,No,Mild,Peripheral,CKD,Hypertension,Never,Occasional,Light,Fair,2024-04-09
+PT-0025,54,Female,Hispanic,Type 2,26,34.1,120,80,136.1,186.1,9,230,111.9,44.4,163.8,1.24,79.2,33,Yes,Yes,No,No,No,No,None,None,Microalbuminuria,Heart Failure,Current,None,Light,Fair,2024-01-27
+PT-0026,62,Female,Asian,Type 2,25,29,167,69,131,193,6.2,169,113.7,20,137.7,0.85,98.6,7.5,No,Yes,Yes,No,No,Yes,Moderate,Peripheral,None,None,Current,Occasional,Light,Fair,2024-04-18
+PT-0027,26,Female,Caucasian,Type 2,4,20.9,124,64,144.2,165.3,8,146.9,54.4,43.7,262.9,0.68,87.5,8.8,Yes,No,No,No,No,Yes,None,Peripheral,None,Hypertension,Former,Moderate,Sedentary,Poor,2024-02-02
+PT-0028,84,Male,Caucasian,Type 2,28,22.4,178,95,132.9,137,7.7,153.3,167.3,47.2,66.2,0.81,53,15.4,No,Yes,No,No,Yes,Yes,Mild,None,Macroalbuminuria,None,Former,Moderate,Light,Good,2024-10-09
+PT-0029,45,Female,African American,Type 2,4,33.6,167,65,177,216,8.4,175.5,116.4,35.9,102.4,0.86,93.6,36,No,No,Yes,No,No,Yes,Mild,Peripheral,Microalbuminuria,Hypertension,Never,Moderate,Light,Excellent,2024-12-23
+PT-0030,57,Female,Caucasian,Type 2,10,31.5,144,85,80.3,105.9,7.3,180.9,130.5,41.8,148.2,1.28,59.1,9.4,No,Yes,No,No,No,No,None,Peripheral,Microalbuminuria,None,Current,Occasional,Moderate,Fair,2024-03-19
+PT-0031,36,Male,Asian,Type 2,27,29.1,159,63,102.9,142.7,7.8,164.2,148.3,66.4,279,2.27,80.4,4.9,No,Yes,Yes,Yes,No,No,None,Peripheral,None,None,Current,None,Moderate,Fair,2024-03-06
+PT-0032,82,Male,Hispanic,Type 1,5,27,111,98,102.3,149.3,9.5,143.2,79.3,56,210.4,0.74,67.4,140.4,Yes,Yes,No,Yes,Yes,Yes,None,Peripheral,Microalbuminuria,CAD,Current,Moderate,Light,Good,2024-11-04
+PT-0033,46,Male,Hispanic,Type 2,6,29.7,131,98,183,223.9,7.2,176.8,131.6,36.9,102.6,0.89,69.5,0.9,Yes,No,No,No,Yes,No,None,None,None,Hypertension,Former,Moderate,Light,Good,2024-02-29
+PT-0034,68,Male,Asian,Type 2,23,33.3,112,109,213.4,292.4,5.1,202.3,105.6,28.8,155.2,1.07,94.2,64.9,Yes,No,No,No,Yes,No,Moderate,Peripheral,None,Hypertension,Never,None,Sedentary,Fair,2024-04-15
+PT-0035,49,Female,Caucasian,Type 2,13,36.6,130,94,140.8,197.3,11.1,218.8,144.6,44.1,130.9,1.3,49,62.1,No,Yes,No,No,Yes,Yes,Moderate,None,Microalbuminuria,None,Current,None,Moderate,Excellent,2024-03-23
+PT-0036,73,Female,Caucasian,Type 2,23,36.9,177,60,138.2,194.2,10.5,172.7,50,45.4,123.2,1.23,120,14.1,No,Yes,No,No,No,Yes,None,Both,CKD,None,Never,Heavy,Light,Good,2024-09-05
+PT-0037,51,Female,Caucasian,Type 2,10,30.5,119,83,147.8,210.2,5.7,178.5,111.5,54,258.3,1.74,29.5,5.8,No,Yes,No,No,Yes,Yes,Mild,Autonomic,None,None,Former,Moderate,Sedentary,Fair,2024-07-18
+PT-0038,83,Female,Caucasian,Type 2,29,27.6,117,95,191.5,218.7,9.2,157.9,93.9,41.6,70.3,0.4,60.1,6.3,No,Yes,No,Yes,Yes,No,Mild,Peripheral,None,CAD,Never,Moderate,Sedentary,Good,2024-01-15
+PT-0039,66,Female,Caucasian,Type 2,12,29.3,159,65,107.9,178.7,7.1,193.7,130.1,54.1,308.7,0.4,84.3,47.8,Yes,Yes,No,Yes,Yes,No,Moderate,None,Microalbuminuria,Stroke,Current,Moderate,Sedentary,Excellent,2024-06-27
+PT-0040,52,Female,Asian,Gestational,1,31.4,162,100,154.5,203,8.5,161.1,131.5,71.2,246.3,0.85,89.6,41.2,No,No,No,No,No,No,None,None,None,None,Never,Occasional,Moderate,Good,2024-04-26
+PT-0041,84,Male,Asian,Type 2,24,31.3,105,105,184,247.4,8.5,217.9,90.2,57.8,267.3,1.65,72.5,61.1,No,No,Yes,No,No,Yes,None,None,Macroalbuminuria,None,Never,Occasional,Sedentary,Poor,2024-02-13
+PT-0042,40,Female,Other,Type 2,6,35.7,131,103,165,193.6,7.6,123.6,90.1,47.4,143,0.4,73.6,110.9,Yes,Yes,No,No,Yes,Yes,None,None,Microalbuminuria,CAD,Former,Occasional,Light,Fair,2024-05-18
+PT-0043,39,Male,African American,Type 2,19,40.1,142,90,152.6,171.5,6.6,180.6,111.1,45.8,168,0.4,85.3,47.1,No,Yes,Yes,Yes,Yes,No,None,None,None,None,Former,None,Light,Fair,2024-06-26
+PT-0044,71,Male,Caucasian,LADA,3,27.4,101,79,185,251.4,6.8,207,83.6,43.7,65.3,1.39,69.2,6.8,Yes,No,Yes,No,Yes,No,None,Peripheral,CKD,Hypertension,Former,Occasional,Light,Fair,2024-02-21
+PT-0045,75,Female,Other,Type 2,26,40.4,159,83,70,127.5,6.4,202.4,144.5,62.2,138,1.22,109.8,11.2,No,No,No,Yes,No,No,None,None,Microalbuminuria,None,Never,Occasional,Moderate,Good,2024-08-31
+PT-0046,68,Male,Hispanic,Type 2,7,34.9,122,84,172.1,204.1,6.5,302.7,102.1,40.5,219.5,0.55,96,73.9,No,Yes,No,Yes,No,No,None,Both,Macroalbuminuria,Hypertension,Never,Occasional,Moderate,Good,2024-10-10
+PT-0047,79,Female,Caucasian,Type 2,19,27.9,130,95,118.8,151.4,7.9,209,50,48.5,283.7,0.61,96.8,9.4,Yes,Yes,Yes,No,No,Yes,Mild,None,Microalbuminuria,Hypertension,Former,Occasional,Light,Good,2024-03-11
+PT-0048,76,Male,Caucasian,Type 2,28,36.7,104,80,71.8,144.3,6.7,154.8,101.9,48.6,91.4,0.62,50.8,3,Yes,Yes,No,No,Yes,No,None,Both,Macroalbuminuria,CAD,Current,Occasional,Sedentary,Excellent,2024-06-01
+PT-0049,81,Female,Asian,Type 2,21,37.8,133,89,165.4,191.6,9.2,191.2,78.7,42,150.8,1.16,73,48.6,Yes,Yes,No,No,No,No,None,Both,None,CAD,Former,None,Light,Fair,2024-05-10
+PT-0050,27,Male,Asian,Type 2,20,26,109,83,199.9,282.8,10.7,124,57.9,31.5,167.9,0.79,67.5,20.6,No,Yes,No,Yes,Yes,Yes,None,Peripheral,None,None,Never,None,Light,Excellent,2024-09-11
+PT-0051,61,Female,Hispanic,Type 2,18,38,101,103,139.5,171.5,7,191.8,71.7,51.9,68.3,1.35,49.9,101,No,Yes,Yes,No,No,No,None,Peripheral,Macroalbuminuria,Hypertension,Current,None,Light,Good,2024-05-30
+PT-0052,75,Female,Caucasian,Type 2,12,34.4,110,101,183.1,245.9,8.4,161.7,118.8,47.3,227.3,0.4,84,42,Yes,Yes,No,No,Yes,Yes,Mild,None,None,CAD,Never,None,Moderate,Fair,2024-02-16
+PT-0053,31,Female,Asian,Type 2,13,41.5,149,89,209.5,252.9,8.9,231.6,161.5,54,122.1,0.67,61.6,3.8,No,Yes,No,No,No,Yes,None,Peripheral,None,None,Never,Heavy,Sedentary,Good,2024-05-01
+PT-0054,45,Female,African American,Type 2,9,26.2,130,81,197.6,259.7,8.8,173,126,41.6,164.4,0.54,91.4,118.2,No,Yes,No,No,Yes,Yes,None,None,Macroalbuminuria,None,Never,None,Light,Poor,2024-02-02
+PT-0055,33,Female,African American,Type 2,10,26.6,155,87,210.6,249.7,8.1,190.3,93.8,62.6,143.8,0.97,48.2,12,Yes,Yes,Yes,Yes,No,Yes,None,None,Macroalbuminuria,None,Never,None,Sedentary,Good,2024-02-18
+PT-0056,63,Male,Asian,Type 2,1,17.4,178,66,174.7,221.4,9.3,169.6,131,37.5,116.9,0.83,118,16.5,Yes,No,Yes,No,No,Yes,None,Peripheral,None,Hypertension,Former,Occasional,Moderate,Fair,2024-11-26
+PT-0057,42,Male,African American,Type 2,24,31.6,172,94,148,198.8,8.9,264.6,98.9,68.5,179.4,1.5,52.6,20.6,No,No,No,No,Yes,Yes,None,None,Macroalbuminuria,None,Never,Occasional,Light,Fair,2024-10-30
+PT-0058,28,Male,Other,Type 2,25,30.6,108,87,80.9,110.9,5.8,182.2,90.7,27,162.8,0.4,80.5,2.1,No,Yes,No,Yes,Yes,No,Moderate,Peripheral,Microalbuminuria,Hypertension,Never,None,Moderate,Good,2024-05-28
+PT-0059,49,Female,Other,Type 2,8,25.4,120,73,135.2,200,9.6,268.3,74.6,53.2,150.3,1.12,94.8,27.4,Yes,Yes,Yes,No,No,Yes,None,None,None,None,Never,Moderate,Sedentary,Good,2024-01-26
+PT-0060,84,Male,Asian,Type 2,16,28,172,69,111.3,151,9.6,227.6,53.7,53.7,121.7,1.38,60.7,5.3,Yes,No,Yes,Yes,Yes,Yes,None,None,Macroalbuminuria,CAD,Never,Moderate,Light,Fair,2024-11-29
+PT-0061,38,Female,Hispanic,Type 2,25,21.3,127,75,231.8,277.2,6.6,214.3,101.4,38.5,205.6,2.03,96.3,20.5,Yes,Yes,No,No,Yes,Yes,None,None,None,None,Former,None,Moderate,Poor,2024-11-24
+PT-0062,74,Female,Caucasian,Type 2,2,35.1,161,75,138,168.1,8.1,209.7,120.5,53.1,312.3,0.86,44.3,17.3,No,Yes,Yes,No,Yes,No,None,None,None,None,Never,None,Sedentary,Fair,2024-10-27
+PT-0063,82,Male,Hispanic,Type 1,23,25.8,106,90,149.9,148.7,9.2,210.8,111.6,63.4,191.2,1.26,111.3,59.3,Yes,Yes,No,Yes,No,Yes,Mild,None,None,Hypertension,Never,Heavy,Moderate,Good,2024-06-07
+PT-0064,33,Male,Other,Type 2,5,45.5,179,101,167.1,213.3,7.6,117.9,100.4,21.4,259.7,0.4,75.4,65,Yes,Yes,Yes,No,Yes,Yes,Mild,None,None,Hypertension,Former,Moderate,Light,Excellent,2024-02-19
+PT-0065,50,Female,Hispanic,Type 2,4,27.5,115,84,146.7,245,9.9,183.8,81.9,54,68.8,0.4,60.1,6.7,No,Yes,Yes,No,Yes,No,Mild,None,None,None,Former,Occasional,Light,Excellent,2024-01-24
+PT-0066,77,Male,African American,Type 2,4,24.3,103,72,212.8,278.5,12.3,228.8,136.3,20,192.6,1.52,67.5,18.3,No,No,No,No,Yes,No,None,Autonomic,Macroalbuminuria,None,Former,None,Light,Fair,2024-08-03
+PT-0067,26,Female,African American,Type 2,21,26.2,103,65,120.1,169.7,6.6,193,68.9,36.4,92.2,1.1,95.2,18.7,Yes,Yes,No,No,Yes,No,None,None,Macroalbuminuria,None,Never,Occasional,Light,Good,2024-01-03
+PT-0068,44,Female,African American,Type 2,14,20.7,139,103,152.8,197.5,5.5,138.8,142.2,67.5,61.8,1.69,60.4,6.6,Yes,Yes,No,No,No,Yes,Moderate,Peripheral,Microalbuminuria,Hypertension,Current,Occasional,Light,Fair,2024-06-17
+PT-0069,52,Female,Caucasian,LADA,22,31.2,116,68,115.3,165.7,8.5,192.9,79.9,41,120.9,0.41,56.3,64.1,No,No,No,No,No,Yes,Severe,None,Macroalbuminuria,CAD,Current,None,Light,Good,2024-10-05
+PT-0070,71,Female,Asian,Type 2,16,26.2,151,104,92.2,153.1,9.3,263.2,88.7,33.9,275.4,1.36,69.5,49.1,Yes,Yes,No,No,No,No,None,Autonomic,None,Hypertension,Former,Occasional,Moderate,Fair,2024-04-29
+PT-0071,84,Female,Caucasian,Type 2,8,34.7,151,95,120.5,146.9,7.6,244.9,63.7,45.6,256,2.03,45.6,8.4,Yes,Yes,No,Yes,Yes,Yes,None,None,None,Hypertension,Former,Occasional,Light,Fair,2024-02-14
+PT-0072,31,Male,African American,Type 2,2,27,135,102,143.5,215.8,10.6,192.5,97.5,72.8,199.4,1.31,120,18.3,No,Yes,Yes,No,No,Yes,None,None,Macroalbuminuria,Hypertension,Never,None,Sedentary,Good,2024-10-15
+PT-0073,68,Male,Asian,Type 2,19,36.1,137,79,127.8,192.1,5.6,233.1,149.1,26,57.4,1.24,60.8,4.5,Yes,Yes,No,No,Yes,Yes,None,Peripheral,None,None,Current,Moderate,Sedentary,Poor,2024-03-23
+PT-0074,32,Female,Caucasian,Type 2,25,32.7,149,77,117.3,181.7,9.2,180.3,133,35.4,164.3,1.1,95.8,39.6,No,Yes,No,No,Yes,No,None,None,None,Stroke,Never,Moderate,Sedentary,Good,2024-02-07
+PT-0075,71,Female,Asian,Gestational,16,28.7,162,102,88.7,147.5,6.9,126.8,149.2,66,204.1,0.4,80.2,5.2,No,Yes,No,No,No,Yes,None,Peripheral,Microalbuminuria,CAD,Never,None,Light,Good,2024-12-01
+PT-0076,59,Male,Caucasian,Type 2,28,37.2,162,80,141.7,192.1,11.1,158,133.3,70.3,194,1.78,50.4,170.6,Yes,Yes,Yes,No,No,No,Mild,None,None,None,Never,Moderate,Moderate,Fair,2024-10-07
+PT-0077,38,Male,African American,Type 2,26,33.7,161,63,84.8,148.3,11.6,257.5,76.4,46.8,50,0.79,74.9,60.7,Yes,No,No,No,No,No,None,Both,Macroalbuminuria,None,Never,None,Moderate,Fair,2024-11-24
+PT-0078,41,Female,African American,Type 2,9,44.7,106,109,175.4,237.2,6.6,184,103.4,33.1,108.8,1.35,94.6,19.8,No,Yes,No,No,No,Yes,None,None,None,None,Current,Moderate,Sedentary,Excellent,2024-09-23
+PT-0079,60,Male,Asian,Type 2,2,26.2,126,92,148.3,191.2,7,185.3,87.7,73.2,174.9,0.4,70.3,34.6,No,Yes,No,No,Yes,No,None,None,None,None,Former,None,Active,Good,2024-05-03
+PT-0080,74,Female,African American,Type 2,17,28.9,113,86,86.7,125.2,9.5,183,161.6,67.1,222.9,0.51,104.8,96.9,No,Yes,Yes,No,Yes,No,Moderate,Peripheral,None,Hypertension,Former,None,Light,Fair,2024-05-15
+PT-0081,64,Male,Caucasian,Type 2,17,37.1,170,66,132.6,184.6,7.3,271.2,73.1,56.1,50,1.82,100.5,32.3,No,Yes,Yes,No,No,No,None,None,Microalbuminuria,Hypertension,Former,Occasional,Active,Fair,2024-10-26
+PT-0082,28,Female,Caucasian,Gestational,29,20,104,65,114.9,195.9,7.9,260,146.3,38.3,167,0.93,98,7.7,Yes,Yes,No,No,Yes,Yes,Mild,Autonomic,None,CAD,Never,Occasional,Moderate,Good,2024-06-24
+PT-0083,26,Male,Hispanic,Type 2,16,35.7,154,74,157.8,183,8,283.8,146.3,47.4,191.4,1.83,63.5,19,No,No,Yes,No,Yes,No,None,None,None,Hypertension,Never,Moderate,Moderate,Good,2024-12-05
+PT-0084,30,Female,Caucasian,Type 1,23,30.9,101,77,198.6,219.2,4.5,188.6,179,46.1,248,1.06,48,74.1,Yes,Yes,No,Yes,No,Yes,Mild,Peripheral,Macroalbuminuria,Hypertension,Former,None,Sedentary,Poor,2024-04-07
+PT-0085,78,Male,Caucasian,Type 2,2,23.6,161,91,70,123.3,8,206.8,100.7,52,235.4,0.4,59.7,41.3,No,Yes,No,No,No,No,None,None,CKD,Hypertension,Former,None,Sedentary,Fair,2024-05-21
+PT-0086,66,Male,Hispanic,Type 2,2,21,120,70,149.6,200.6,6.8,134.3,139.9,65.4,226.6,1.55,79.9,42.1,Yes,No,Yes,No,Yes,Yes,None,Autonomic,None,None,Never,Occasional,Sedentary,Excellent,2024-10-17
+PT-0087,28,Female,Asian,Type 2,5,24.8,178,79,138.6,192.1,7.1,254.1,194.9,58.6,116,0.81,88.6,80.6,Yes,Yes,No,Yes,No,Yes,None,Peripheral,None,None,Former,Occasional,Moderate,Good,2024-05-24
+PT-0088,78,Male,Caucasian,Type 1,12,16,120,83,171.9,226.8,10.6,148.3,93.4,35.1,50,1.45,20.7,89.8,No,Yes,No,Yes,No,No,None,None,None,Hypertension,Never,None,Light,Excellent,2024-07-19
+PT-0089,53,Female,Caucasian,Type 1,23,25.8,109,74,153.5,199,5.7,203.7,61.3,64.5,148.6,1.11,74.8,100.9,No,No,No,No,No,No,None,None,CKD,None,Never,Occasional,Moderate,Good,2024-03-24
+PT-0090,42,Male,Caucasian,Type 2,28,31.9,157,107,114.9,194.7,9.5,151.1,50,51.8,260.1,0.4,79,4,Yes,No,Yes,No,Yes,No,Mild,None,CKD,None,Never,Moderate,Light,Excellent,2024-06-24
+PT-0091,50,Female,Caucasian,Type 2,14,25.9,138,66,132.2,150.2,7.5,171.4,139.9,56.2,291.5,1.18,68.1,31.4,Yes,No,Yes,No,Yes,Yes,None,Both,None,CAD,Never,Moderate,Moderate,Fair,2024-10-05
+PT-0092,68,Male,Caucasian,Gestational,24,36.1,104,80,113.2,146.6,7.5,161.5,50,65.6,236.8,2.2,107.3,54,No,Yes,No,No,Yes,Yes,None,None,Microalbuminuria,Hypertension,Former,Heavy,Sedentary,Good,2024-12-01
+PT-0093,58,Female,Hispanic,Type 2,8,37.6,164,101,188,235.9,9.4,170.7,102,34.7,214.3,1.35,85.5,56.6,No,Yes,Yes,Yes,Yes,No,None,None,None,None,Former,None,Sedentary,Poor,2024-08-18
+PT-0094,34,Male,African American,Type 2,3,35.5,112,85,145.9,163,8.6,173.4,130.3,47.6,210.4,1.07,107.8,37.3,Yes,No,No,No,Yes,No,Mild,None,None,Hypertension,Never,Occasional,Light,Good,2024-07-30
+PT-0095,60,Female,African American,Type 2,13,29.8,152,103,221,267.5,9,173.1,121.5,41.6,135.5,1.64,69.6,7.3,Yes,Yes,Yes,No,Yes,No,Severe,None,None,CAD,Former,None,Light,Fair,2024-04-27
+PT-0096,38,Male,Hispanic,Type 2,4,16,144,73,142.6,225.8,9.7,228.3,129.9,29.2,169.6,1.21,98.4,63.9,Yes,Yes,No,Yes,Yes,Yes,Mild,Peripheral,None,None,Former,Occasional,Light,Fair,2024-09-29
+PT-0097,55,Female,Hispanic,Type 2,1,24.6,131,96,116.7,167.1,7.4,150.8,122.8,52.2,313.5,1.2,115.9,50.9,No,No,No,No,No,Yes,None,Both,None,None,Never,Occasional,Moderate,Excellent,2024-12-16
+PT-0098,72,Female,Asian,Type 2,10,27.7,135,80,84.5,139.1,6.9,203.8,159.8,78.1,104.6,0.55,107.8,3.6,No,Yes,No,No,Yes,No,Mild,Peripheral,None,Heart Failure,Never,Heavy,Sedentary,Excellent,2024-09-07
+PT-0099,39,Female,Caucasian,Type 2,8,23.6,159,77,72.9,97.7,6,243.7,81.7,25.9,309.2,1.22,47.7,24.9,No,No,Yes,Yes,No,No,Severe,Autonomic,Microalbuminuria,None,Current,Occasional,Light,Poor,2024-02-04
+PT-0100,32,Male,Caucasian,Type 2,23,27.7,110,64,81.6,119.3,6.5,174.5,91.3,47.6,154.2,1.62,68.7,7.6,No,Yes,No,Yes,No,Yes,Moderate,Peripheral,None,None,Former,Heavy,Moderate,Good,2024-02-26
+PT-0101,38,Female,Asian,Type 2,2,37.4,162,62,155.7,198.2,13.3,166.3,88,55.7,286,0.68,66.4,16.5,Yes,Yes,Yes,Yes,Yes,No,None,None,Microalbuminuria,Hypertension,Current,Moderate,Sedentary,Fair,2024-12-23
+PT-0102,47,Male,Caucasian,Type 2,26,19.4,120,82,165.3,208.9,10.2,185.8,144.1,49.5,67.5,1.81,87.2,0.7,No,Yes,No,No,No,No,None,None,None,CAD,Never,Moderate,Active,Fair,2024-10-14
+PT-0103,84,Female,Caucasian,Type 2,27,38.5,151,85,81.8,157.4,5.6,242.2,146.5,46.6,226.9,1.05,92.2,20.5,No,No,Yes,No,No,Yes,None,Peripheral,None,None,Former,Moderate,Active,Good,2024-08-21
+PT-0104,81,Male,African American,Type 2,28,33.4,154,96,180.8,242,5.6,202.8,130.8,32.4,121.1,0.66,54,31.9,Yes,Yes,No,No,Yes,Yes,None,Both,None,None,Never,Occasional,Sedentary,Fair,2024-06-13
+PT-0105,64,Female,Other,Type 2,8,30,125,83,125.7,153.5,8.9,173.8,156.4,50.8,66.8,1.6,76.7,38.7,Yes,Yes,No,No,No,Yes,Mild,Autonomic,None,None,Never,None,Sedentary,Excellent,2024-09-08
+PT-0106,45,Male,Caucasian,Type 2,2,24.6,167,108,150.9,205.8,9,214.4,73.8,38.9,197.5,0.96,24.5,43.6,No,No,Yes,No,Yes,No,None,None,None,Stroke,Never,None,Light,Poor,2024-05-27
+PT-0107,40,Male,Caucasian,Type 2,24,23.7,133,78,209.5,269.5,9,150.9,173.4,21.7,260.8,1.48,111,72.4,No,No,No,No,No,Yes,None,None,None,None,Never,None,Moderate,Good,2024-04-24
+PT-0108,69,Female,Asian,Type 2,1,19.6,151,84,180.9,253.7,7.5,222.3,168.3,62.3,112.4,0.95,62.2,9.7,Yes,No,Yes,No,Yes,Yes,Mild,None,None,Hypertension,Never,Occasional,Light,Good,2024-07-17
+PT-0109,42,Male,African American,Gestational,11,37.9,151,80,134.3,215.9,7.8,211.3,140.7,59.5,60.1,1.07,76.4,5.1,No,Yes,No,Yes,No,No,Moderate,Both,None,Heart Failure,Never,Occasional,Light,Fair,2024-02-02
+PT-0110,71,Male,African American,Gestational,9,37,128,71,109.4,139.1,8.6,182.7,177.4,48.6,172.7,1.35,67.3,76.3,No,Yes,No,No,Yes,Yes,None,Autonomic,Microalbuminuria,None,Never,Occasional,Moderate,Fair,2024-02-21
+PT-0111,77,Female,Caucasian,Type 2,8,20.8,137,100,70,103.8,8.2,161.5,57,50.7,173,1.25,103.7,6.8,Yes,No,No,No,No,Yes,Mild,Peripheral,Microalbuminuria,Stroke,Former,Heavy,Sedentary,Good,2024-06-11
+PT-0112,48,Male,Hispanic,Type 2,14,25.5,141,92,116.2,141,4.5,159.5,96.6,60.9,223.9,0.4,10,147.2,Yes,Yes,No,No,Yes,Yes,None,None,None,Heart Failure,Never,Moderate,Moderate,Good,2024-03-10
+PT-0113,50,Male,Asian,Gestational,7,30.9,120,109,136.6,181.9,7.6,216.4,89.3,50.7,256,0.54,74.6,73.9,Yes,Yes,Yes,No,No,No,Moderate,Peripheral,None,Heart Failure,Never,None,Moderate,Fair,2024-04-29
+PT-0114,49,Male,Asian,Type 2,24,26.9,141,63,105.5,164.8,6.5,244.2,140.3,58.8,175.2,1.56,72.4,27.8,No,Yes,No,No,No,No,Moderate,None,None,None,Never,None,Light,Fair,2024-01-03
+PT-0115,84,Female,Asian,Type 1,4,17.9,112,101,139.7,209.4,8.3,169.5,78.2,44.4,328.4,1.03,63.7,159.4,Yes,No,Yes,No,Yes,Yes,None,None,Microalbuminuria,Hypertension,Never,Occasional,Moderate,Poor,2024-10-23
+PT-0116,84,Male,Caucasian,Gestational,10,24.9,163,66,148.1,196.6,13.4,213.3,141.5,63.7,197.9,0.84,118.2,4.1,Yes,Yes,No,No,No,No,Mild,Peripheral,None,CAD,Former,None,Moderate,Fair,2024-07-30
+PT-0117,84,Female,Other,Type 2,26,39.2,116,81,136,179.6,8.7,111.5,163,51.8,152.3,0.42,52.8,14.4,No,No,No,No,Yes,No,Moderate,None,None,Stroke,Never,Moderate,Sedentary,Fair,2024-09-22
+PT-0118,69,Male,Hispanic,Type 2,1,25.3,108,92,119,172,7.4,171.6,139.3,50.3,51.1,0.56,94.3,40.7,No,Yes,No,No,No,Yes,None,None,None,None,Former,Occasional,Light,Poor,2024-12-20
+PT-0119,65,Male,Caucasian,Type 2,23,27.6,140,76,151.7,185,9.7,193.8,124.9,32.8,159,0.4,83.9,17.2,Yes,Yes,Yes,No,Yes,Yes,None,Both,CKD,CAD,Never,Occasional,Light,Good,2024-04-06
+PT-0120,53,Male,Hispanic,Type 1,27,22.2,100,83,162.7,254.5,8.9,158.6,80.4,51.4,153.1,1.05,106.5,105.5,Yes,Yes,No,No,No,Yes,Moderate,Peripheral,None,None,Never,Moderate,Sedentary,Good,2024-03-16
+PT-0121,39,Female,African American,Type 2,14,31.7,101,93,101.4,119.2,8.8,157.5,85.4,38,256.8,0.8,58.3,2.7,No,Yes,No,No,No,Yes,None,None,Microalbuminuria,None,Current,Moderate,Active,Excellent,2024-05-27
+PT-0122,69,Male,Other,Type 2,5,29.1,159,87,201.4,255.1,9.1,168.3,158.7,40.3,217,0.62,56.7,31.9,No,Yes,No,No,Yes,No,None,Peripheral,None,None,Former,None,Sedentary,Good,2024-12-18
+PT-0123,25,Male,Asian,Type 2,7,24.4,147,102,141.1,231.6,11.7,206.7,142.3,38.2,85.7,1.07,102.4,35.7,No,Yes,Yes,No,Yes,No,Moderate,None,CKD,CAD,Never,Occasional,Moderate,Excellent,2024-05-09
+PT-0124,49,Female,Caucasian,Type 2,26,21.3,128,100,145.8,195.9,6,187.5,113.6,35.2,193.8,1.28,85.6,42.3,Yes,Yes,Yes,No,Yes,Yes,Mild,Peripheral,Macroalbuminuria,Hypertension,Former,Occasional,Light,Good,2024-09-07
+PT-0125,31,Male,Asian,Type 2,4,36.2,109,98,173.3,219.5,8.9,105.5,100.4,73.5,233.7,2.15,36.4,11.8,No,No,Yes,No,No,Yes,None,Autonomic,None,Hypertension,Never,None,Sedentary,Good,2024-02-06
+PT-0126,33,Female,Caucasian,Type 2,15,19.7,157,81,154.3,197.2,6.3,110.2,50,64,302.2,0.4,61.5,18.1,No,No,No,No,Yes,Yes,None,Peripheral,Macroalbuminuria,Stroke,Former,None,Active,Excellent,2024-11-07
+PT-0127,48,Female,Asian,LADA,25,31.3,159,108,183.1,229.5,9,170.7,77.5,71,251,1.68,84.7,74.2,No,No,Yes,Yes,Yes,No,None,Peripheral,None,None,Former,Occasional,Moderate,Good,2024-01-17
+PT-0128,25,Male,Hispanic,Type 2,17,16.7,120,76,156.5,234,6.3,213.3,181.9,33.3,240.9,1.59,95.9,8.7,No,Yes,No,Yes,No,Yes,None,None,Macroalbuminuria,Hypertension,Former,None,Light,Poor,2024-08-23
+PT-0129,68,Female,Caucasian,Type 2,5,32.4,127,93,120.5,126.3,7.2,100,70.2,48.9,184.8,0.71,58,70.1,Yes,Yes,Yes,No,Yes,No,None,None,Macroalbuminuria,None,Current,None,Sedentary,Good,2024-05-21
+PT-0130,32,Male,Asian,Gestational,4,33.8,174,65,159.5,240.2,7.5,175,121.6,32.5,211.1,1.2,10,33.1,Yes,Yes,No,No,No,Yes,Mild,None,None,None,Never,Occasional,Sedentary,Excellent,2024-02-29
+PT-0131,48,Female,Caucasian,Type 2,27,34.5,133,105,99.3,120.8,9.8,174,150.3,39.7,280,0.87,88.1,57.5,No,No,No,No,Yes,No,None,None,Microalbuminuria,Hypertension,Former,Moderate,Light,Good,2024-05-25
+PT-0132,35,Female,Caucasian,Type 2,15,27.6,107,65,149.3,194,9.7,250.5,71.1,37,73.4,1.19,44.5,50,No,No,No,No,Yes,No,None,Peripheral,None,Heart Failure,Never,None,Sedentary,Good,2024-07-13
+PT-0133,75,Male,Caucasian,Type 2,12,37.2,158,93,143.7,185.1,5.8,179.6,121.5,62.9,152,1.85,24.6,9.3,No,No,No,Yes,No,Yes,None,None,None,Hypertension,Never,None,Light,Good,2024-01-28
+PT-0134,41,Female,Caucasian,Type 2,27,41.2,171,60,136.7,198.5,8.1,210.3,147.8,43.2,118.2,1.4,10,33.6,Yes,Yes,Yes,No,Yes,Yes,Severe,None,None,CAD,Never,Moderate,Active,Excellent,2024-03-23
+PT-0135,32,Female,Asian,Type 2,4,26.7,148,69,139.9,157.9,6.7,200.7,115.4,60.8,210.3,1.35,95.3,80.9,No,Yes,Yes,No,Yes,No,None,None,Microalbuminuria,None,Never,None,Light,Poor,2024-02-28
+PT-0136,59,Female,Caucasian,Type 2,12,26,178,80,70,129.2,5.7,109.8,215.4,55.2,278.4,0.88,78.2,22.6,No,Yes,Yes,No,No,Yes,None,Both,None,None,Former,Heavy,Moderate,Good,2024-07-29
+PT-0137,59,Female,Caucasian,Type 2,16,29.3,116,64,123.1,213.6,7.6,225.7,56.6,75.6,132.2,0.4,69.4,136,Yes,Yes,No,No,Yes,No,None,None,None,Hypertension,Former,Occasional,Moderate,Fair,2024-08-04
+PT-0138,57,Female,Hispanic,Type 2,17,25.9,159,61,148.7,171.4,7.4,203.6,152.1,30.2,50,1,109.7,24.1,Yes,Yes,No,No,No,Yes,Mild,Peripheral,Microalbuminuria,None,Former,None,Light,Good,2024-07-01
+PT-0139,83,Male,Caucasian,Type 2,7,25.1,144,81,151.4,205.2,12.4,215.3,109,63.1,147,1.7,90.9,6.2,No,No,No,Yes,No,No,Mild,None,None,None,Never,None,Moderate,Good,2024-07-08
+PT-0140,29,Female,Asian,Type 2,12,25.5,168,107,103.9,140.7,8.8,350,142,61.8,253.1,0.4,115.4,19.7,No,Yes,No,No,Yes,Yes,None,None,None,Hypertension,Never,None,Light,Poor,2024-12-12
+PT-0141,66,Male,Asian,Type 2,29,37.9,131,61,195.6,254.1,5.5,111.6,130.4,36.3,223,0.57,40.2,121.2,No,Yes,No,No,Yes,No,None,None,None,None,Current,None,Moderate,Fair,2024-09-12
+PT-0142,63,Female,African American,Type 2,28,32.7,143,69,110.4,160.8,7,264,89.3,60.1,214.3,1.16,74.1,15.4,No,Yes,No,No,No,No,None,Peripheral,None,None,Never,None,Sedentary,Good,2024-07-15
+PT-0143,82,Male,Caucasian,Type 2,18,25.9,164,93,183.8,221,9.8,183.5,123,52,157.6,0.61,34.6,81,Yes,No,No,No,Yes,No,None,Peripheral,None,Hypertension,Former,Occasional,Sedentary,Poor,2024-08-17
+PT-0144,65,Male,Caucasian,Type 2,25,16,107,75,162.1,221.9,11.8,206.5,50,45.3,77.7,0.7,69.3,85.2,Yes,Yes,Yes,No,Yes,No,None,Autonomic,None,Hypertension,Former,None,Moderate,Fair,2024-05-14
+PT-0145,52,Female,African American,Type 2,2,20,176,107,119.2,205.3,5.1,193.2,136.1,38.1,221.2,0.89,68.8,17.2,No,No,No,No,No,No,None,None,CKD,Heart Failure,Former,Occasional,Light,Good,2024-02-05
+PT-0146,31,Female,Asian,Type 2,23,31.3,171,98,216,262.2,4.6,178,125.4,39.4,113.3,0.42,90.7,3.5,No,No,No,No,Yes,Yes,None,None,Microalbuminuria,Hypertension,Never,Occasional,Moderate,Fair,2024-12-03
+PT-0147,33,Female,African American,Type 2,7,16.8,142,81,97.3,161.7,11.4,172.2,137.4,72.6,354.7,0.61,76.1,51.6,No,Yes,No,No,No,No,None,Both,None,None,Current,None,Active,Fair,2024-03-01
+PT-0148,32,Male,Caucasian,Type 2,1,30.1,100,71,181.8,205.9,8.7,208.2,152,48,225.6,1.45,90.6,14.9,No,Yes,No,No,Yes,No,None,None,None,Heart Failure,Never,None,Sedentary,Excellent,2024-07-25
+PT-0149,36,Female,Asian,Type 2,7,22.6,150,83,185,215.9,6.4,134.3,127.9,57.4,133.5,0.45,92.6,61.1,Yes,Yes,No,No,Yes,Yes,Mild,Peripheral,None,CAD,Current,None,Light,Fair,2024-10-16
+PT-0150,58,Male,Caucasian,Type 2,26,29,123,106,118.2,177.6,9,225,120.2,38.5,131.1,0.4,120,23.4,No,Yes,Yes,No,Yes,No,None,Autonomic,Microalbuminuria,None,Never,None,Light,Fair,2024-03-30
+PT-0151,57,Male,African American,Type 2,12,28.9,123,99,200.7,280.4,4.5,178.4,84.2,38.6,172.6,0.78,67.1,26.6,Yes,No,No,No,No,No,None,None,None,None,Never,Occasional,Light,Good,2024-02-17
+PT-0152,72,Male,Caucasian,Type 2,12,29.2,116,97,135,192.1,8,149.8,90.1,61,160.8,1.47,51.5,60.2,Yes,No,No,No,No,No,None,Peripheral,None,Hypertension,Never,None,Moderate,Good,2024-12-12
+PT-0153,79,Female,Other,Type 1,0,26.3,104,69,156.5,200.2,8.6,177,156.5,31.8,269.3,1,81.2,19.3,Yes,Yes,Yes,Yes,No,Yes,Severe,None,Macroalbuminuria,Hypertension,Former,Moderate,Sedentary,Excellent,2024-01-05
+PT-0154,47,Female,Caucasian,Type 2,5,26.1,119,94,155.4,205.4,9.7,245.3,165.3,43,194.9,0.87,54.9,23.4,Yes,Yes,No,Yes,Yes,Yes,Moderate,None,None,CAD,Never,Occasional,Light,Excellent,2024-08-12
+PT-0155,48,Male,Hispanic,Type 2,23,24.5,120,108,139.6,164.6,6.2,173.6,106.7,48.4,121.5,1.12,112,18.9,Yes,Yes,No,No,Yes,Yes,None,None,None,Hypertension,Never,Occasional,Moderate,Good,2024-11-27
+PT-0156,61,Male,Caucasian,Gestational,18,31.2,157,91,177.4,239.5,8.2,209.3,116.6,49.3,331.2,0.4,67.9,18.3,Yes,Yes,No,No,Yes,Yes,None,Autonomic,Macroalbuminuria,Hypertension,Never,Occasional,Sedentary,Fair,2024-03-05
+PT-0157,59,Female,African American,Type 2,15,32.9,130,66,176.7,244.3,6.3,165.8,83.3,45.9,183.9,1.35,60.9,29.9,Yes,Yes,Yes,No,Yes,No,None,None,Microalbuminuria,Stroke,Current,Occasional,Moderate,Poor,2024-06-02
+PT-0158,68,Male,Caucasian,Type 2,7,21.8,110,80,75.1,116.1,8.5,225.3,156,52.7,241.5,1.29,63.2,66.2,Yes,Yes,No,No,No,Yes,None,Peripheral,None,Hypertension,Former,None,Light,Fair,2024-12-01
+PT-0159,64,Female,Asian,LADA,27,28.2,151,79,197.2,237.8,6.4,222.4,138.3,56.3,131.3,0.9,93,18,No,Yes,No,Yes,No,Yes,None,Both,Microalbuminuria,None,Former,None,Active,Poor,2024-06-30
+PT-0160,46,Male,Asian,Type 2,0,29.6,114,85,78.5,133.8,7.3,268.9,182.9,56.8,209,1.6,71.1,29.7,Yes,No,No,No,Yes,No,Mild,Peripheral,None,CAD,Former,Occasional,Light,Good,2024-07-12
+PT-0161,51,Female,Asian,Gestational,26,29.5,106,63,186.3,227.6,6.2,188,84.3,36.2,204.9,0.54,59,44.4,Yes,Yes,No,Yes,No,Yes,None,Peripheral,Microalbuminuria,None,Never,None,Sedentary,Good,2024-11-09
+PT-0162,59,Male,Asian,Type 2,26,29.4,127,105,190.1,238.8,9.2,221.7,101.8,44.6,50,1.66,116.6,12.6,No,Yes,No,No,Yes,Yes,Moderate,None,None,CAD,Never,Occasional,Light,Poor,2024-07-25
+PT-0163,25,Female,Asian,Type 2,15,26.3,150,81,101.4,193.4,9.5,198.9,123.1,62.3,341.2,1.18,53.6,13,No,Yes,No,Yes,No,Yes,None,None,Macroalbuminuria,Stroke,Current,Occasional,Sedentary,Good,2024-04-27
+PT-0164,59,Male,Hispanic,Type 2,8,30,157,74,128.6,173.7,7.6,246.8,137.6,58.7,283.3,0.93,75.9,108.4,No,No,No,No,Yes,Yes,Moderate,None,CKD,Hypertension,Never,Occasional,Active,Fair,2024-04-26
+PT-0165,61,Female,Caucasian,Type 2,12,31.9,104,99,100.8,143.6,8.1,166.2,107.5,31.5,148.2,1.09,91.3,51.4,Yes,Yes,No,Yes,Yes,No,Moderate,Peripheral,CKD,Hypertension,Never,Occasional,Sedentary,Fair,2024-03-29
+PT-0166,71,Female,Hispanic,Type 2,10,29.3,104,80,136.4,173.4,5.4,224.8,84.4,52.2,91.8,1.05,34.2,34.4,No,Yes,No,No,Yes,No,None,Both,CKD,Hypertension,Never,Occasional,Moderate,Good,2024-07-15
+PT-0167,38,Male,African American,Type 2,12,31.3,107,74,132.7,197.6,7.5,187.2,145.8,24.3,207.8,1.71,87,41.7,Yes,Yes,Yes,No,Yes,No,None,Both,None,None,Never,Occasional,Light,Fair,2024-07-03
+PT-0168,27,Male,Caucasian,Type 2,24,33.9,163,81,176.2,222.6,7.9,192.4,140.2,48.6,186.9,0.56,48.6,1.2,Yes,No,No,No,No,Yes,None,Autonomic,None,None,Never,Occasional,Light,Fair,2024-12-31
+PT-0169,25,Female,Hispanic,Type 2,20,18.3,109,87,197.4,234.4,12.7,198.7,82.9,70.8,208.5,0.72,95.6,38.5,Yes,Yes,No,No,Yes,No,None,Both,None,Hypertension,Never,Occasional,Sedentary,Poor,2024-06-22
+PT-0170,29,Male,African American,Gestational,9,33.7,137,73,200.8,277.2,6,205.1,162.4,36.6,195.3,1.62,50.9,28.5,No,No,No,No,Yes,Yes,None,None,Microalbuminuria,CAD,Never,Occasional,Light,Fair,2024-07-20
+PT-0171,50,Female,Caucasian,Type 2,3,30.4,107,86,122.5,200.9,10.6,190.4,156,38,220.5,0.8,92.3,31.6,Yes,No,Yes,Yes,No,Yes,Mild,Peripheral,Macroalbuminuria,Hypertension,Never,Moderate,Light,Good,2024-04-30
+PT-0172,79,Male,Asian,Type 2,26,22.4,124,100,136.6,174.6,9.8,203.6,119.7,57.2,295.8,1.55,102.6,17.8,Yes,No,No,No,No,Yes,None,Both,None,None,Never,Occasional,Sedentary,Excellent,2024-05-03
+PT-0173,38,Female,Asian,Type 2,5,32.9,172,99,77.7,90.4,8.5,258.1,117.8,29.5,225.4,1.95,96.5,3.4,Yes,Yes,Yes,No,No,Yes,Severe,None,CKD,Hypertension,Never,Occasional,Active,Fair,2024-09-14
+PT-0174,63,Female,Caucasian,LADA,27,26.3,165,87,112.8,183,11.2,234.4,134.4,40.4,96,0.9,81.3,8.6,No,Yes,Yes,Yes,Yes,Yes,None,Both,Macroalbuminuria,CAD,Never,Moderate,Light,Fair,2024-02-14
+PT-0175,51,Female,Caucasian,Type 2,6,27.1,178,85,183.6,219.9,8.7,229.8,84.8,55.2,289,1.44,69.2,120.4,No,Yes,No,Yes,No,Yes,Severe,None,CKD,Hypertension,Former,Occasional,Light,Good,2024-10-23
+PT-0176,33,Female,Asian,Type 2,4,25.7,149,108,209.6,275.4,8.7,176.8,116.1,40.4,311.2,0.52,60.6,21,Yes,No,No,No,No,No,None,Peripheral,Macroalbuminuria,Hypertension,Never,None,Light,Excellent,2024-07-22
+PT-0177,39,Female,African American,LADA,10,30.2,166,61,95.6,106.2,7.9,159.4,50,45.2,432.2,1.48,111.8,25.1,No,Yes,No,No,Yes,Yes,Moderate,Peripheral,None,CAD,Former,Moderate,Sedentary,Fair,2024-03-23
+PT-0178,39,Female,African American,LADA,12,24.2,148,84,121.3,189.2,10.2,233.2,145.7,56.9,90.1,1.2,57.5,2.2,No,Yes,Yes,No,Yes,Yes,None,Both,None,Hypertension,Former,None,Active,Fair,2024-09-11
+PT-0179,50,Male,Asian,Type 2,25,33.5,135,62,143.9,169.7,10,230,60.3,53.1,199.4,1.34,49.1,1.5,No,No,No,No,Yes,Yes,None,None,None,None,Former,Occasional,Light,Good,2024-05-19
+PT-0180,66,Male,Caucasian,Type 2,24,27.7,167,67,156.2,220.8,6.9,253.9,167.6,51.2,50,0.78,91.6,50.5,Yes,Yes,Yes,Yes,Yes,No,Moderate,Peripheral,None,Heart Failure,Never,Moderate,Sedentary,Good,2024-03-07
+PT-0181,84,Male,Asian,Type 2,18,26.5,177,103,112.6,162.9,5.6,170.8,103.4,43.9,224.3,0.4,55.1,30.9,No,Yes,No,Yes,Yes,Yes,None,Peripheral,Microalbuminuria,None,Never,Heavy,Light,Poor,2024-12-17
+PT-0182,37,Female,Caucasian,Type 1,22,32.6,140,92,162,192.9,7.6,185.8,107.6,52.4,136.1,1.35,51.2,28.4,Yes,Yes,No,No,Yes,No,Mild,None,Macroalbuminuria,Stroke,Never,None,Light,Good,2024-12-02
+PT-0183,75,Female,Caucasian,Type 2,9,26.7,161,101,126,167.9,6.6,129.4,93,46.5,333.9,0.4,38.9,11.1,No,Yes,No,Yes,No,No,Mild,Peripheral,Macroalbuminuria,None,Former,Occasional,Light,Poor,2024-07-24
+PT-0184,56,Female,African American,Type 2,9,33.7,109,94,144.4,208.1,7.9,179.3,104.9,53.5,118,0.94,62.9,54.6,Yes,No,No,No,No,Yes,None,Peripheral,Microalbuminuria,None,Never,Occasional,Moderate,Fair,2024-03-02
+PT-0185,63,Female,Caucasian,Type 2,10,33.9,120,65,166.9,219,10.2,234.9,164.6,42,50,1.57,72.9,7.4,Yes,Yes,Yes,No,No,Yes,None,Peripheral,None,Heart Failure,Former,None,Sedentary,Fair,2024-06-23
+PT-0186,73,Male,African American,Type 2,20,21.2,135,98,145.3,207,7.2,176.3,50,45.8,142.3,1.2,81.1,8.4,Yes,Yes,No,Yes,No,Yes,Mild,None,None,None,Current,None,Sedentary,Excellent,2024-06-06
+PT-0187,76,Male,Other,Gestational,29,34.6,111,82,127.5,217,7.9,220.6,159.7,36.1,50,2.07,98.8,24.7,No,Yes,Yes,No,Yes,No,None,None,None,Hypertension,Never,Occasional,Moderate,Fair,2024-05-15
+PT-0188,56,Female,Asian,Type 2,6,20.5,101,84,140.6,159.3,8.1,187.4,126.8,47.6,240.1,1.61,88.2,13.5,Yes,No,No,Yes,No,Yes,Mild,Peripheral,None,CAD,Never,Occasional,Sedentary,Fair,2024-07-02
+PT-0189,28,Male,African American,Type 2,17,34.9,112,109,141.5,223.8,9.5,208,72.8,38.3,50,0.77,70.2,11.4,No,No,No,No,No,Yes,Moderate,None,None,CAD,Former,None,Moderate,Fair,2024-12-18
+PT-0190,54,Male,Caucasian,Gestational,3,39.7,152,102,130.2,182.3,4.5,149.1,77.4,34.6,182.3,1.11,70,41.5,Yes,Yes,Yes,Yes,Yes,Yes,None,None,None,Stroke,Never,Occasional,Sedentary,Excellent,2024-03-03
+PT-0191,61,Female,Caucasian,Type 2,1,33.3,131,78,134.6,166.6,6.9,198.4,173.7,51.1,50,1.08,87.8,42.1,No,Yes,No,No,No,No,None,Both,None,None,Never,Occasional,Moderate,Poor,2024-06-07
+PT-0192,47,Male,Caucasian,Type 2,13,16.6,115,64,208.9,232.3,8.4,100,81.9,50.6,154.4,0.4,106.8,69.6,No,Yes,No,No,No,Yes,Mild,Peripheral,None,Hypertension,Current,Moderate,Light,Fair,2024-07-14
+PT-0193,63,Female,African American,Type 2,12,34.3,131,70,167.4,213.6,10.2,187.5,74.6,57.4,311.5,0.63,78.2,21.6,No,No,Yes,No,Yes,Yes,None,Peripheral,Microalbuminuria,None,Never,Moderate,Light,Poor,2024-04-11
+PT-0194,69,Male,Hispanic,Type 2,28,40.9,131,71,133.2,201.6,7.1,129.8,154.8,42.8,208.9,0.82,63.3,3,No,Yes,Yes,No,No,No,None,None,None,None,Current,Occasional,Sedentary,Good,2024-12-13
+PT-0195,39,Female,African American,Type 1,11,26.8,110,69,172.9,220.3,4.6,243.2,126.8,52.9,110.9,0.4,50.2,12.8,No,No,Yes,Yes,Yes,No,None,None,None,CAD,Former,Heavy,Sedentary,Fair,2024-10-24
+PT-0196,67,Female,African American,Type 2,6,28.3,109,67,131.6,211.8,9.1,226.1,82.2,54.6,177.5,1.12,38.9,156.5,Yes,Yes,No,No,Yes,No,None,None,None,None,Former,Moderate,Sedentary,Fair,2024-12-25
+PT-0197,53,Female,Hispanic,Type 2,1,22,114,83,191.9,212.9,6.9,213.7,122.6,53.3,181.4,0.98,91.7,36.3,No,Yes,No,No,Yes,Yes,None,None,CKD,Hypertension,Never,None,Sedentary,Fair,2024-11-29
+PT-0198,60,Female,Other,Type 2,12,30.2,116,87,159.8,209.6,5.9,255.8,79.1,38.1,217.8,0.4,89.4,49.5,Yes,Yes,Yes,No,No,No,None,Peripheral,None,Hypertension,Never,None,Light,Excellent,2024-05-23
+PT-0199,37,Male,Hispanic,Type 2,13,35.5,139,100,140.7,165.7,6.9,157,153.5,49.8,70.7,1.3,89.4,0.3,No,No,Yes,Yes,No,No,Moderate,Peripheral,None,Hypertension,Never,Occasional,Light,Good,2024-07-07
+PT-0200,56,Female,Hispanic,Gestational,26,32.3,117,95,162.9,220.2,7.7,264.9,152.1,52.4,227.4,1.46,71.8,29.2,No,Yes,No,No,No,Yes,None,None,Microalbuminuria,Stroke,Never,Occasional,Light,Good,2024-05-01
+PT-0201,31,Female,Caucasian,Type 2,16,45.8,154,96,82.2,149.9,6.9,232.3,133.6,48.1,50,1.21,110.2,1.5,Yes,No,No,Yes,Yes,No,None,None,Microalbuminuria,None,Never,Occasional,Moderate,Excellent,2024-04-17
+PT-0202,83,Female,Asian,LADA,8,28.7,172,80,99.9,141.5,4.5,185.5,127.7,23,129.6,0.94,62.9,33.7,Yes,Yes,No,No,Yes,Yes,Severe,None,CKD,Hypertension,Never,Occasional,Moderate,Excellent,2024-09-16
+PT-0203,75,Male,Hispanic,Type 2,16,19.5,124,67,97.2,95.1,9.6,240.4,176.6,49.9,140.9,1.4,98.9,101.4,No,Yes,No,Yes,No,No,Mild,None,None,CAD,Never,Occasional,Light,Fair,2024-05-05
+PT-0204,46,Female,Caucasian,Type 2,7,29.4,158,68,150.7,204.7,10.3,150.7,115,74.6,230.7,1.44,74,138.2,No,Yes,Yes,No,No,Yes,Moderate,None,None,Hypertension,Never,Occasional,Light,Excellent,2024-12-09
+PT-0205,52,Male,Caucasian,Type 2,1,16,177,106,214.3,273,9.2,162,73.6,43.7,181.8,1.25,59.8,31.1,No,No,No,No,Yes,No,None,Both,None,None,Former,None,Light,Poor,2024-05-31
+PT-0206,26,Female,African American,LADA,27,25.6,121,74,234.3,292.4,6,170.7,130.7,39.3,67.6,0.69,89.8,24.5,No,Yes,No,No,Yes,Yes,Moderate,Peripheral,Microalbuminuria,Hypertension,Never,Moderate,Light,Fair,2024-11-08
+PT-0207,66,Male,Caucasian,Type 2,23,37.4,129,107,170.5,245.2,7.6,173.8,188,52.5,101.2,1.24,85.2,116,No,No,Yes,No,No,No,None,Peripheral,None,None,Never,None,Moderate,Excellent,2024-12-07
+PT-0208,69,Male,Caucasian,Type 2,12,30.3,143,105,165,193.6,8,152.7,79.5,51.7,195.9,1.7,83.9,44.8,No,No,No,Yes,No,Yes,None,None,None,None,Former,Heavy,Sedentary,Fair,2024-03-27
+PT-0209,81,Female,Hispanic,Type 2,2,29.5,131,99,73,136.6,9.1,243.9,102.3,62.3,173.7,0.8,77,2.7,Yes,No,No,No,Yes,No,None,Both,None,CAD,Current,None,Sedentary,Fair,2024-03-16
+PT-0210,77,Male,African American,Type 2,15,38.5,150,77,123.3,197.2,9.2,184.6,129.6,32.9,133.7,2.15,74.1,25.1,Yes,Yes,No,Yes,Yes,No,None,Peripheral,None,Hypertension,Never,Heavy,Moderate,Fair,2024-02-10
+PT-0211,30,Female,Caucasian,Type 2,5,27,145,101,113.5,127.9,6.7,209.1,113.1,56.8,141.5,0.84,120,11,No,No,Yes,No,No,Yes,Moderate,Peripheral,None,Heart Failure,Never,None,Sedentary,Good,2024-06-30
+PT-0212,52,Female,African American,Type 2,18,35.4,120,79,120.2,176.6,8.1,172.2,80.6,55.1,235.7,1.12,104.6,25.4,No,No,No,No,No,No,None,None,Microalbuminuria,CAD,Former,None,Moderate,Fair,2024-12-21
+PT-0213,52,Female,African American,Type 2,29,29.2,131,65,138.3,178.2,8.8,122.2,154.3,46.3,138.6,0.76,93.1,24.3,No,Yes,No,No,Yes,No,Mild,Both,Microalbuminuria,Hypertension,Current,None,Moderate,Good,2024-08-26
+PT-0214,68,Male,Asian,Type 2,6,30.6,138,71,126.1,174.5,10.6,205.8,196.2,52.1,173,1.21,77.8,34.9,Yes,Yes,No,No,Yes,Yes,Mild,Autonomic,None,None,Former,Occasional,Sedentary,Excellent,2024-06-08
+PT-0215,68,Male,Asian,Type 2,9,21.8,111,61,70,127,9.3,118.5,121.9,60.4,353.6,0.4,100.2,17.7,Yes,Yes,No,No,No,Yes,Mild,Autonomic,None,None,Former,Moderate,Sedentary,Good,2024-08-22
+PT-0216,44,Female,Hispanic,Type 2,8,25.8,146,66,174.9,215.2,9.4,192.3,83.4,58.5,66.1,0.83,87.9,7.2,Yes,Yes,Yes,No,Yes,No,None,None,Microalbuminuria,None,Never,Occasional,Light,Fair,2024-01-29
+PT-0217,54,Female,Caucasian,Type 2,1,20.8,117,75,102.1,138.6,8.2,140.3,60.8,34.3,50,0.55,75.7,28,Yes,Yes,Yes,Yes,Yes,Yes,Mild,None,None,Heart Failure,Never,Moderate,Light,Excellent,2024-06-20
+PT-0218,35,Male,Asian,Gestational,27,28,120,62,154.6,205.3,10.5,274.5,124,57.8,242.7,1.17,67.4,70.9,Yes,Yes,No,No,Yes,Yes,None,None,None,None,Never,Occasional,Sedentary,Fair,2024-04-15
+PT-0219,82,Female,Caucasian,Type 2,27,30.6,112,104,228,256.3,8.7,231.5,153.6,47.2,125.7,1.6,73,43.6,No,Yes,Yes,No,Yes,Yes,None,None,None,None,Former,Occasional,Moderate,Poor,2024-03-26
+PT-0220,79,Female,Caucasian,Type 2,14,22.4,120,62,108.2,136.5,6.5,199.2,131.6,48.9,154.5,1.42,10,16.5,Yes,Yes,No,No,No,Yes,Severe,Autonomic,Microalbuminuria,Hypertension,Former,Moderate,Light,Poor,2024-09-21
+PT-0221,52,Female,Caucasian,Type 2,29,39.8,107,86,70,133.6,10.5,245.5,114.9,48.9,117.5,0.4,80.3,109.7,No,Yes,No,Yes,Yes,Yes,None,None,CKD,None,Current,None,Light,Good,2024-09-04
+PT-0222,49,Male,Caucasian,Type 2,4,30,145,109,133.6,160.6,9.3,161.1,94.4,46.2,159.2,2.12,62.8,97.3,Yes,Yes,No,No,No,Yes,None,None,Microalbuminuria,None,Never,None,Sedentary,Poor,2024-07-03
+PT-0223,63,Male,Caucasian,Type 2,28,28.8,106,102,189,252.3,7.2,216.7,76.8,62.3,307.9,1.25,114.8,9.4,No,Yes,No,No,Yes,No,Moderate,None,None,Hypertension,Never,Moderate,Moderate,Poor,2024-12-24
+PT-0224,57,Male,Caucasian,Type 2,21,32.7,122,99,223.3,282.6,7.1,203,144.2,47,244.2,0.71,75.5,1.6,Yes,Yes,No,Yes,Yes,No,None,None,None,None,Never,Moderate,Sedentary,Fair,2024-11-18
+PT-0225,25,Female,Hispanic,Type 1,3,23.9,174,97,95.8,111.3,8.5,205.6,147,34.6,249,1.18,45.3,54.1,Yes,Yes,Yes,No,Yes,Yes,Mild,None,Macroalbuminuria,None,Former,Heavy,Moderate,Fair,2024-05-03
+PT-0226,81,Female,Asian,Type 2,19,29.4,121,92,164.9,201.3,8.8,245.9,60.9,43.3,66.7,1.19,73.8,70.3,Yes,Yes,No,No,No,No,None,Autonomic,None,None,Former,Moderate,Light,Good,2024-04-07
+PT-0227,51,Female,Hispanic,Type 2,3,24.6,121,87,126.4,200.3,8.4,224.3,170.6,50.1,87.9,0.77,48.8,137.5,No,Yes,No,No,No,No,None,Peripheral,CKD,Hypertension,Never,None,Light,Good,2024-09-12
+PT-0228,81,Male,Caucasian,Type 2,17,37.1,128,60,140.8,171.2,8.6,206.5,135.1,62.8,50,1.2,86.8,88.2,No,No,No,No,Yes,No,None,None,CKD,Hypertension,Never,Moderate,Moderate,Good,2024-11-08
+PT-0229,76,Female,African American,Type 2,3,22.7,112,67,250.8,291.5,11.1,128.8,164,55.2,115.2,0.8,82.3,36.7,No,Yes,Yes,No,No,Yes,None,None,None,None,Never,Occasional,Moderate,Fair,2024-12-18
+PT-0230,37,Female,Caucasian,Type 2,26,28.8,101,96,84.9,144.1,9.9,156.6,68,37.8,256.5,0.9,98.9,30.2,Yes,No,No,Yes,No,Yes,None,None,CKD,Hypertension,Never,Heavy,Light,Fair,2024-11-26
+PT-0231,65,Female,Other,Type 2,16,30.3,128,91,155.1,220.8,8.3,190.1,67.2,77.8,221.4,0.76,55.2,1.1,No,Yes,Yes,No,No,No,Mild,None,None,None,Current,Occasional,Sedentary,Excellent,2024-07-08
+PT-0232,27,Female,Hispanic,Type 2,11,30.7,178,107,163.7,208.7,9.7,198.7,109.8,51.2,162.3,0.4,75.9,11.3,Yes,Yes,Yes,Yes,Yes,No,None,Peripheral,Macroalbuminuria,Heart Failure,Never,Occasional,Moderate,Poor,2024-08-28
+PT-0233,63,Male,Asian,Type 2,21,25.3,151,102,188.4,226.4,6.1,149.8,132.6,63.3,178.2,1.17,40.9,24.6,Yes,Yes,Yes,No,No,No,Severe,Peripheral,None,None,Former,Occasional,Light,Excellent,2024-09-07
+PT-0234,30,Male,African American,Type 2,16,23.6,126,96,148.9,227.3,8.7,291.5,177.9,46.2,124.9,1.39,92.5,39.6,No,Yes,No,No,Yes,No,None,Peripheral,None,Hypertension,Former,None,Sedentary,Poor,2024-01-28
+PT-0235,32,Female,Caucasian,Type 2,9,25.4,149,63,157.3,242.1,11.3,255.7,139.7,54.4,196.4,1.36,88,32.6,No,No,Yes,No,Yes,Yes,None,Peripheral,Microalbuminuria,Heart Failure,Former,None,Active,Excellent,2024-10-22
+PT-0236,51,Male,Caucasian,Type 2,21,31.4,178,89,129.3,198.9,7.6,219.1,106.5,58.1,241.3,1.51,87.4,54.3,Yes,Yes,Yes,No,No,No,Mild,None,Macroalbuminuria,CAD,Never,Moderate,Sedentary,Fair,2024-01-16
+PT-0237,33,Male,Asian,Type 2,0,27.7,122,65,155.8,207.5,6.5,197.9,79.1,62.6,50.7,1.26,75,13.1,Yes,Yes,Yes,Yes,Yes,Yes,Severe,Both,None,None,Former,Moderate,Sedentary,Fair,2024-09-13
+PT-0238,61,Female,Caucasian,Type 2,21,32.9,143,105,131.3,165.1,6.8,186.5,158.1,60.7,204,0.83,85.4,33.3,No,Yes,Yes,No,Yes,Yes,None,Autonomic,Microalbuminuria,None,Never,None,Sedentary,Good,2024-08-06
+PT-0239,57,Female,Caucasian,Type 2,25,31.1,176,78,169.9,203.3,6,156.9,81.2,58.5,254.6,1.52,115.1,3.7,Yes,Yes,No,No,Yes,No,Mild,Both,None,Hypertension,Never,Moderate,Light,Good,2024-07-01
+PT-0240,75,Male,Caucasian,Type 2,23,16,121,91,130.2,190.7,6.6,198.1,172,44.2,146.8,0.42,67.9,21.4,Yes,No,Yes,Yes,No,Yes,Moderate,None,None,None,Never,Occasional,Moderate,Fair,2024-09-19
+PT-0241,66,Female,African American,Type 2,26,29.9,142,68,160.1,218.5,7.3,205.3,105,41.1,236.1,0.65,78.5,55.5,No,No,Yes,No,No,Yes,None,Both,None,CAD,Never,Occasional,Light,Good,2024-08-08
+PT-0242,68,Male,Asian,Type 2,17,40.9,136,71,143.8,221.8,5.5,145.3,170.7,52,405.2,0.62,47.8,47.3,No,Yes,No,No,Yes,No,Moderate,Autonomic,None,Hypertension,Never,None,Light,Good,2024-05-26
+PT-0243,48,Female,Caucasian,LADA,17,35.8,160,70,190,253,8,208.4,138.8,59.2,171.7,1.64,53.3,186.9,No,Yes,No,No,No,Yes,None,Autonomic,None,Hypertension,Never,Moderate,Light,Poor,2024-02-23
+PT-0244,39,Male,Caucasian,Type 2,13,30.8,155,105,142.9,162.8,9.6,188.8,110.2,45.3,211.5,1.57,77.4,13,No,Yes,No,Yes,Yes,No,Mild,None,None,None,Current,Occasional,Moderate,Poor,2024-01-17
+PT-0245,83,Female,Asian,Type 1,14,22.7,102,75,74.1,145.1,6.4,118.7,96.8,60.8,121,1.34,102.6,27.6,No,No,No,No,Yes,No,Severe,Peripheral,None,Hypertension,Never,Occasional,Sedentary,Fair,2024-12-27
+PT-0246,78,Male,Caucasian,Type 2,28,31.1,162,60,195.5,225.5,10.7,160.6,103.1,65.4,194.5,1.64,68.6,16,Yes,Yes,Yes,Yes,No,No,Mild,Both,None,Hypertension,Former,Occasional,Active,Poor,2024-04-17
+PT-0247,56,Male,Hispanic,Type 1,11,32.6,118,104,108.8,151.1,8.9,178.5,130,37,216.8,0.66,69.1,23.2,No,Yes,No,Yes,Yes,Yes,None,Peripheral,None,CAD,Current,None,Sedentary,Good,2024-03-09
+PT-0248,56,Male,Caucasian,Type 2,3,27.1,122,80,118.8,173.8,9.9,270.5,117.7,38,195.6,1.27,64.8,77.8,Yes,No,Yes,No,Yes,Yes,None,Peripheral,CKD,None,Never,Occasional,Active,Fair,2024-01-19
+PT-0249,48,Female,Asian,Type 2,26,30.2,128,89,121.2,211.1,6.8,217.3,94.2,46.3,98.4,1.04,61.6,46.1,Yes,Yes,No,Yes,Yes,Yes,Severe,Both,None,None,Former,None,Sedentary,Fair,2024-11-21
+PT-0250,65,Male,Caucasian,Gestational,2,36.8,129,72,200,312.2,9.5,141.6,109.2,51.7,196.5,1.52,82.4,85.6,No,Yes,No,Yes,No,Yes,None,None,CKD,None,Never,None,Moderate,Poor,2024-04-18
+PT-0251,76,Male,Asian,Type 2,19,23.8,138,93,70,132.1,6,214.4,117.8,41.7,297,1.04,37.6,9.1,Yes,No,Yes,No,Yes,Yes,None,Peripheral,Microalbuminuria,None,Never,Occasional,Sedentary,Fair,2024-04-06
+PT-0252,73,Female,African American,Type 2,28,22.7,124,63,270.5,316.8,9.6,133.1,50,64.2,215.9,0.91,107,82.7,Yes,Yes,No,No,No,No,Mild,None,Microalbuminuria,Hypertension,Never,Moderate,Sedentary,Poor,2024-11-16
+PT-0253,73,Female,Asian,LADA,11,32.3,107,87,187.2,247.9,8.3,238.3,131,53.1,257,1.37,58.4,2.5,Yes,Yes,No,Yes,No,Yes,None,Both,Microalbuminuria,Heart Failure,Current,Occasional,Moderate,Poor,2024-10-09
+PT-0254,82,Male,Caucasian,Type 2,6,31,157,97,153.9,221.7,9,176.2,80.7,48.5,161,1.54,93,87.8,Yes,Yes,No,Yes,Yes,No,None,None,Macroalbuminuria,None,Never,None,Moderate,Poor,2024-07-12
+PT-0255,76,Male,Other,LADA,28,34.2,115,90,142.8,186.4,5.9,191.3,74.6,30.8,240,0.77,43.3,16,No,Yes,No,No,No,Yes,None,Peripheral,None,CAD,Former,Occasional,Light,Excellent,2024-11-05
+PT-0256,36,Female,Caucasian,Type 2,10,31.6,171,86,156.4,242.3,6.4,248,55.9,32.2,202.3,1.07,91.7,15.1,No,Yes,No,No,Yes,No,None,Peripheral,None,None,Never,Moderate,Moderate,Poor,2024-06-17
+PT-0257,63,Female,African American,Type 2,0,25.4,100,64,165.8,220.4,9.1,143.5,52.2,51.4,103.9,0.57,91.8,28.7,No,No,Yes,No,Yes,No,Mild,Autonomic,Microalbuminuria,None,Current,Occasional,Light,Good,2024-06-07
+PT-0258,26,Female,Asian,Type 2,5,30.9,104,84,170.8,230.8,6.3,139.1,67.6,22.4,205.5,0.4,84.6,113,Yes,Yes,Yes,Yes,No,Yes,Mild,Peripheral,Microalbuminuria,None,Never,Moderate,Moderate,Poor,2024-04-29
+PT-0259,27,Female,African American,Type 2,14,22.2,102,62,167.2,230.5,8.8,171.7,90.2,60.2,100.7,1.2,50.1,2,Yes,No,No,Yes,No,Yes,None,Both,Macroalbuminuria,None,Former,Occasional,Light,Poor,2024-06-05
+PT-0260,73,Female,Caucasian,Type 2,14,27.1,164,92,148.6,207,5.5,236.5,183.4,46.1,129.4,1.4,81.2,17.4,Yes,No,No,Yes,Yes,No,Moderate,Both,None,Heart Failure,Former,Moderate,Light,Fair,2024-11-24
+PT-0261,61,Male,Hispanic,Type 2,18,31.3,103,63,137.1,203.9,9.5,134.2,96.6,86.9,195.1,1.23,45.4,77.7,Yes,Yes,No,Yes,Yes,No,Moderate,None,Microalbuminuria,None,Former,None,Light,Fair,2024-04-25
+PT-0262,73,Female,Asian,Type 2,10,26.5,163,84,138.9,176.6,5.8,100,121.2,75.7,203.8,0.4,68.7,20.2,Yes,Yes,No,No,Yes,No,Mild,None,None,Hypertension,Current,None,Light,Excellent,2024-08-24
+PT-0263,80,Male,Asian,LADA,25,42.1,109,79,137.2,176,9,177,129,45.8,84.9,0.92,100.7,8.9,No,Yes,No,Yes,Yes,Yes,None,None,None,Hypertension,Former,None,Moderate,Excellent,2024-03-17
+PT-0264,41,Male,Asian,Type 2,22,18.1,120,93,190.4,218.4,9.1,217.1,119.6,46.7,264.3,0.4,94.9,22.1,No,No,No,No,Yes,Yes,Mild,None,None,Heart Failure,Never,Occasional,Sedentary,Good,2024-04-27
+PT-0265,83,Male,Hispanic,Type 2,25,25.5,145,85,168.7,227.5,6.7,243,112.3,59.9,225.8,1.78,75.4,19.5,No,No,No,No,Yes,No,None,Peripheral,Microalbuminuria,None,Never,Moderate,Sedentary,Good,2024-11-11
+PT-0266,73,Female,African American,Type 2,1,23.3,126,64,70,135.6,9,176.5,73.2,68.4,123.6,0.56,50.6,98.8,Yes,Yes,No,No,No,No,Mild,Both,Macroalbuminuria,None,Never,Moderate,Light,Fair,2024-12-19
+PT-0267,26,Male,Hispanic,Type 2,13,24.6,165,94,171.2,230.4,8.5,178.5,165.8,28.3,57,1.73,91.1,57.4,No,No,No,No,Yes,Yes,Mild,Autonomic,None,None,Never,None,Moderate,Fair,2024-07-30
+PT-0268,26,Male,Asian,Type 2,1,25,140,87,152.8,236.3,7,241.2,178.3,26.6,168.4,1.57,75.5,28.1,Yes,Yes,No,No,Yes,No,None,None,Macroalbuminuria,None,Never,None,Sedentary,Excellent,2024-12-03
+PT-0269,52,Female,African American,Type 2,28,21.2,112,88,144.3,194.2,6.2,120.2,56.1,40.5,144.3,0.65,17,178.2,Yes,No,No,No,No,Yes,Severe,None,None,None,Never,None,Light,Good,2024-10-04
+PT-0270,78,Male,Caucasian,Type 2,3,32.6,108,68,129.5,192.9,4.5,179.5,79.2,55,189.1,0.53,94.6,25,No,Yes,Yes,No,No,Yes,None,Peripheral,None,CAD,Never,None,Active,Good,2024-07-19
+PT-0271,47,Male,Caucasian,Type 2,16,25.5,135,97,190,218.2,8.6,202.6,105.2,54,151,1.28,74.4,2.4,No,Yes,No,No,Yes,Yes,Mild,Peripheral,None,Hypertension,Current,Occasional,Sedentary,Fair,2024-01-17
+PT-0272,61,Female,Asian,Type 2,2,29.4,157,109,182.9,225.2,5.2,213,81.2,60.8,50,0.68,105.1,12.2,Yes,No,No,No,Yes,Yes,None,None,None,Hypertension,Never,Moderate,Moderate,Poor,2024-10-25
+PT-0273,56,Male,Hispanic,Type 1,12,26.1,153,65,114.1,178,8.2,174.6,132.7,33.6,148.9,1.15,47.6,22.9,Yes,Yes,No,No,No,No,Severe,Both,None,Hypertension,Current,Heavy,Moderate,Excellent,2024-07-23
+PT-0274,57,Male,Asian,Type 1,8,24.7,111,78,161.3,228.3,7.5,196.4,89.5,20.2,155.6,0.86,10,6.8,Yes,Yes,No,No,Yes,Yes,None,Both,None,None,Never,Occasional,Light,Fair,2024-05-05
+PT-0275,25,Male,Caucasian,Type 1,6,37.7,177,103,106.1,150.2,9.2,100,190.8,58.3,230.7,0.4,82,117.9,No,Yes,No,No,Yes,Yes,None,None,Microalbuminuria,None,Former,Moderate,Active,Fair,2024-11-11
+PT-0276,43,Female,African American,LADA,14,33.6,113,70,89.8,138.4,7.5,168.7,156.7,38.1,124.1,0.4,82.3,58.2,No,Yes,Yes,No,No,No,None,Both,Microalbuminuria,Stroke,Former,Occasional,Moderate,Poor,2024-08-13
+PT-0277,26,Female,Asian,Type 1,22,18.2,133,61,119.9,139.5,7.4,213.1,122.4,23.8,314.3,1.21,32.7,12.5,No,Yes,No,No,Yes,No,None,None,None,CAD,Never,None,Light,Good,2024-10-31
+PT-0278,77,Female,Caucasian,Type 2,28,17.6,152,106,179.5,222.4,9.3,155.7,150.9,49.7,50,0.82,50.5,35.7,Yes,No,No,Yes,Yes,No,None,Peripheral,None,Heart Failure,Never,Occasional,Light,Poor,2024-03-16
+PT-0279,68,Male,Asian,Type 2,28,34.2,119,103,183.1,250.9,8.6,197.4,153.7,57.5,284.9,0.82,120,51.1,Yes,Yes,No,Yes,Yes,No,Mild,None,None,CAD,Never,Occasional,Moderate,Good,2024-10-03
+PT-0280,50,Male,Caucasian,Type 2,10,25.6,174,103,165.5,227,8.6,212.9,95.3,46.5,162.1,1.45,67.4,113.4,No,Yes,Yes,No,Yes,Yes,None,None,None,None,Never,Occasional,Light,Poor,2024-08-03
+PT-0281,56,Female,Caucasian,LADA,19,19.4,115,68,174,234,8.8,181.3,86.4,42.5,248.8,1.69,93.3,85.4,No,No,No,Yes,Yes,No,None,Both,None,None,Current,None,Moderate,Excellent,2024-07-29
+PT-0282,30,Male,Caucasian,Type 2,1,34.3,169,80,165.6,216.6,5.2,201.8,117.7,46.1,186.4,0.96,58.7,29,Yes,Yes,No,No,No,No,None,None,None,None,Former,None,Light,Good,2024-02-28
+PT-0283,56,Male,Hispanic,Type 2,14,29.4,155,83,119.3,169.4,9.4,156.5,145.2,43.6,271.2,0.93,22.7,59.6,No,Yes,No,Yes,Yes,No,Moderate,Peripheral,CKD,None,Never,None,Sedentary,Poor,2024-01-03
+PT-0284,79,Female,Caucasian,Type 2,13,29.9,157,93,162.3,199.1,9.1,186.7,119.9,31.8,149,1.35,70.7,33,No,No,No,No,Yes,Yes,Mild,None,Macroalbuminuria,None,Never,Heavy,Sedentary,Good,2024-08-05
+PT-0285,28,Female,Caucasian,Type 1,19,33,103,81,177,241,6.2,219.4,59.8,39.4,92.1,0.42,68.4,32.2,No,No,No,No,Yes,Yes,Mild,None,None,Hypertension,Never,Occasional,Sedentary,Fair,2024-02-09
+PT-0286,79,Male,Hispanic,LADA,21,21.3,103,62,175.2,233.6,7.6,201.3,86.9,54.3,293.6,1.21,65,4.9,No,Yes,No,No,No,No,Mild,None,None,Hypertension,Never,Moderate,Sedentary,Poor,2024-04-06
+PT-0287,35,Male,Caucasian,Type 2,10,19.5,119,71,192.6,252.4,7.9,171.5,112.4,51.9,170.9,1.38,72.1,5.4,No,No,No,No,Yes,Yes,None,None,None,Heart Failure,Former,Moderate,Moderate,Excellent,2024-10-25
+PT-0288,80,Male,Caucasian,Type 2,26,37.2,109,87,173.3,212.8,7.8,204,112.4,50,197.7,1.44,81.6,30.2,No,Yes,No,No,Yes,No,None,Peripheral,Macroalbuminuria,Hypertension,Never,None,Moderate,Fair,2024-09-08
+PT-0289,83,Female,Caucasian,Type 2,2,20.6,123,89,159.1,166,8.6,223.6,184,36.1,278.8,0.4,71.2,12.5,No,No,Yes,No,No,No,None,None,None,Heart Failure,Never,Occasional,Moderate,Fair,2024-06-24
+PT-0290,41,Female,Caucasian,Type 2,16,21.8,125,85,187.8,259.7,10.6,113,66.5,45.8,97.4,0.72,43.4,0.9,Yes,Yes,No,No,Yes,No,Moderate,Peripheral,None,None,Never,Moderate,Light,Poor,2024-12-29
+PT-0291,62,Female,Caucasian,Type 2,29,22.9,136,107,143.9,184.3,9.9,241.4,132.7,21.9,227.6,0.66,87.2,51.3,Yes,No,No,Yes,Yes,No,Severe,Peripheral,Microalbuminuria,None,Never,Occasional,Moderate,Fair,2024-10-19
+PT-0292,48,Female,African American,LADA,11,39.9,153,80,109.7,142.4,5.6,181.5,167.1,50.1,132.8,1.15,26.3,1.3,Yes,Yes,No,No,Yes,No,None,Peripheral,None,Hypertension,Former,Heavy,Light,Excellent,2024-03-10
+PT-0293,29,Male,Hispanic,Gestational,23,31.2,120,87,138.5,202.4,9.1,212,194.5,65.1,169.4,1.34,23.7,36.2,No,No,No,No,Yes,Yes,None,None,None,None,Never,None,Moderate,Fair,2024-05-06
+PT-0294,76,Female,Asian,Type 2,27,33.8,173,85,115.2,157.4,10.4,242.9,100.8,30.3,185.8,1.85,93.5,31,Yes,No,Yes,No,Yes,No,None,Both,None,None,Current,None,Light,Excellent,2024-12-03
+PT-0295,58,Female,Caucasian,Type 2,28,29.6,137,92,118,189.2,8.7,140.1,132.2,41,60,0.85,87.7,138.7,No,No,Yes,No,No,No,None,None,None,None,Current,Moderate,Active,Excellent,2024-08-12
+PT-0296,30,Female,Caucasian,Type 1,20,25.2,145,80,139.2,201.5,10,166.6,134.9,51.9,117.7,0.85,73.6,26.5,Yes,Yes,No,No,Yes,Yes,Mild,None,None,None,Never,Moderate,Moderate,Poor,2024-02-11
+PT-0297,46,Female,African American,Type 2,14,32,103,94,113.3,177,11.6,183.5,121.8,63,288.1,1.67,40.1,2.6,Yes,Yes,Yes,Yes,No,Yes,None,None,None,Hypertension,Never,Heavy,Sedentary,Poor,2024-07-03
+PT-0298,35,Female,Asian,Type 1,15,19.9,159,93,132.7,155.4,9.8,163.6,111.5,42.6,250.9,1.25,57.3,32.1,No,Yes,No,Yes,Yes,Yes,Severe,None,None,None,Former,Occasional,Light,Excellent,2024-12-17
+PT-0299,72,Male,Asian,Type 2,4,22.5,156,100,70,144.2,8.4,264.4,130.3,39.7,175,1.73,68.4,73.6,Yes,No,No,No,Yes,No,None,None,None,Hypertension,Current,Heavy,Light,Fair,2024-09-13
+PT-0300,40,Male,Caucasian,LADA,26,32.5,144,106,153.5,208.7,9.9,160.7,50,24.4,199.4,1.24,35.1,230.4,Yes,Yes,No,No,Yes,Yes,Severe,Peripheral,Macroalbuminuria,Hypertension,Former,Moderate,Sedentary,Poor,2024-01-08
+PT-0301,57,Female,Caucasian,Type 2,19,21,119,77,145,187.6,8.3,172.8,138.9,49.2,156.5,0.52,56.5,22.5,Yes,No,Yes,No,No,No,Moderate,None,None,None,Never,Moderate,Light,Fair,2024-06-15
+PT-0302,33,Male,African American,Type 2,5,27.5,116,70,112.3,165.2,8,203.2,119.4,72.5,288.5,0.43,91.3,15.4,No,No,Yes,No,Yes,Yes,Moderate,None,None,None,Current,Occasional,Light,Good,2024-09-17
+PT-0303,84,Female,Asian,Type 2,18,27.7,170,82,171.4,185.9,7.4,146.9,107.2,51.3,164,0.4,110.7,94.9,Yes,Yes,No,No,No,Yes,Mild,Peripheral,Microalbuminuria,None,Never,None,Sedentary,Good,2024-07-24
+PT-0304,83,Female,African American,Type 2,24,25.6,103,107,182.5,240.7,10.8,179.2,186.6,47.7,198.5,1.43,64.5,8.5,No,No,No,No,Yes,No,Mild,None,Macroalbuminuria,None,Former,Heavy,Active,Poor,2024-03-25
+PT-0305,30,Male,Asian,Type 2,4,17.8,113,81,80.7,110.1,6.5,207.7,91.4,51.9,271.7,1.69,93.9,38.2,No,Yes,No,No,Yes,Yes,Mild,None,Macroalbuminuria,Hypertension,Current,Occasional,Light,Poor,2024-04-08
+PT-0306,40,Male,African American,Type 2,2,25,102,76,114.5,137.4,10.8,181.7,100.9,47.9,117.8,2.02,27.1,20.8,Yes,Yes,No,Yes,Yes,No,Mild,None,None,CAD,Never,Occasional,Moderate,Excellent,2024-07-31
+PT-0307,53,Female,Asian,Type 2,26,24,179,64,114.2,133.8,8.9,191.3,184.7,38.2,304.7,1.52,91.5,1.7,Yes,Yes,No,Yes,Yes,No,Mild,Peripheral,None,Hypertension,Current,Occasional,Moderate,Good,2024-10-21
+PT-0308,27,Female,Asian,Type 2,0,29.4,157,103,107.4,179.7,5.5,173.8,85.9,57.9,57.6,1.68,54.9,17.1,Yes,Yes,No,Yes,Yes,No,Severe,None,Microalbuminuria,None,Never,Occasional,Light,Good,2024-06-19
+PT-0309,44,Female,Hispanic,Type 2,25,29.1,154,70,178.2,215.6,8.7,134.4,95.7,50.7,310.4,0.81,82.7,12.3,No,No,No,Yes,Yes,Yes,Mild,None,Microalbuminuria,Hypertension,Current,Occasional,Light,Good,2024-05-04
+PT-0310,84,Male,Other,Type 2,27,30.6,103,89,137.2,217.9,4.5,207.9,109.9,48.2,150.2,0.52,68.8,46.3,Yes,Yes,No,Yes,No,No,Moderate,Peripheral,None,Hypertension,Never,None,Moderate,Fair,2024-10-08
+PT-0311,83,Female,African American,Type 1,5,24.8,123,74,134.4,173.7,9.1,265.2,144.4,36.3,160.6,1.53,108,118.9,Yes,Yes,Yes,Yes,Yes,No,Moderate,Peripheral,CKD,Hypertension,Current,Moderate,Active,Good,2024-03-21
+PT-0312,60,Female,Caucasian,Type 2,14,31.4,133,86,70,85.9,9.6,195.7,122.3,63.6,50,1.31,53.1,12.5,No,No,Yes,No,No,No,None,Peripheral,None,Hypertension,Never,Occasional,Sedentary,Fair,2024-04-18
+PT-0313,43,Female,African American,Type 2,1,19.9,129,94,170.4,198.1,6.9,204,69.8,56,143.6,1.15,90.7,66.7,No,No,No,No,Yes,Yes,None,Autonomic,CKD,Hypertension,Former,Occasional,Moderate,Fair,2024-03-22
+PT-0314,50,Male,Asian,Type 2,28,18.5,118,92,95.4,170.1,8.2,222.7,96.4,41.4,96.8,1.29,68,2.3,Yes,Yes,No,No,Yes,No,None,None,Macroalbuminuria,Hypertension,Never,None,Active,Good,2024-08-06
+PT-0315,27,Female,Other,Type 2,2,16,130,79,147.4,194.3,11.5,144.2,93.7,60,131.4,1.26,71,30.9,Yes,No,Yes,Yes,No,No,None,None,Microalbuminuria,Hypertension,Never,None,Moderate,Fair,2024-01-13
+PT-0316,43,Female,Caucasian,Type 2,16,25.8,159,75,156.1,195.1,7.1,263.1,112.3,42,169,1.74,70.4,2.9,No,Yes,Yes,No,Yes,No,Moderate,None,CKD,None,Never,None,Active,Excellent,2024-06-26
+PT-0317,44,Male,Hispanic,Type 2,24,24.4,159,93,199.4,252.6,6.1,203.1,129.9,38.6,256.6,1.75,53.9,108.7,No,Yes,No,No,Yes,Yes,None,None,Microalbuminuria,Hypertension,Former,Occasional,Light,Fair,2024-05-30
+PT-0318,56,Female,African American,Type 2,23,32.8,118,61,92.6,152.6,10.7,260.3,129.6,38.9,196.6,1.37,74.6,58.2,No,Yes,Yes,Yes,No,Yes,Mild,None,None,None,Never,None,Active,Excellent,2024-01-13
+PT-0319,31,Female,Hispanic,Gestational,11,24.9,148,94,70,142.3,11.5,165.7,52.8,26.7,204.6,1.52,73.4,42.9,No,Yes,No,No,No,Yes,None,None,None,None,Former,Moderate,Moderate,Excellent,2024-10-08
+PT-0320,76,Male,Caucasian,Type 2,17,30,162,99,152.4,231.4,8,267.7,152.2,53.7,92.4,1.36,81,69.5,No,No,No,Yes,Yes,Yes,None,Peripheral,None,Stroke,Never,None,Sedentary,Fair,2024-05-31
+PT-0321,65,Female,Caucasian,Type 2,14,33,121,87,217,259.8,9.8,226,123.8,26,109.5,0.87,77.1,41.7,No,Yes,No,No,Yes,Yes,Mild,Peripheral,None,Stroke,Current,None,Active,Good,2024-02-17
+PT-0322,57,Male,African American,Type 2,11,24.7,123,106,194.6,218.1,10.4,217.1,163.5,33.3,323.9,1.48,94.9,138.9,No,No,No,No,No,Yes,Moderate,None,Microalbuminuria,None,Never,None,Light,Fair,2024-09-06
+PT-0323,64,Male,Asian,Type 2,15,30.1,175,98,153.4,195.1,6.7,204.4,130.5,23.1,121.2,0.4,98.1,50.1,Yes,Yes,No,No,Yes,No,None,Peripheral,None,None,Never,None,Light,Excellent,2024-10-07
+PT-0324,63,Female,Other,Type 2,26,34,129,65,125.3,180.5,7.1,185.1,153.5,47,312.5,1.63,48.7,103.4,No,Yes,No,No,No,Yes,Mild,None,None,None,Never,Moderate,Light,Fair,2024-11-23
+PT-0325,42,Female,Hispanic,Type 2,7,21.7,157,68,177.3,208,10.2,243,131.3,46.2,160.6,0.5,96.7,29.1,Yes,No,No,No,Yes,No,Mild,None,Microalbuminuria,Hypertension,Never,Moderate,Sedentary,Good,2024-07-25
+PT-0326,64,Female,Asian,Type 2,27,28.6,130,79,106.1,137,11,200.6,162.1,44.1,180.2,1.24,45.3,5,Yes,No,No,No,Yes,Yes,None,Peripheral,Macroalbuminuria,CAD,Never,Occasional,Light,Fair,2024-06-25
+PT-0327,25,Female,Hispanic,Type 2,13,24.7,163,60,164.1,221,9,116.3,133.3,35.5,265.6,0.68,89.7,30,No,Yes,No,No,No,Yes,None,None,None,Stroke,Never,None,Moderate,Fair,2024-12-08
+PT-0328,35,Male,Caucasian,Type 2,24,22,118,67,165.2,214.2,6.4,150.3,111.6,33.9,281.8,1.38,90.5,5.4,Yes,Yes,Yes,Yes,Yes,Yes,Severe,None,None,Hypertension,Current,None,Sedentary,Poor,2024-08-03
+PT-0329,52,Female,Hispanic,Type 2,16,20,147,82,187.4,238.1,11.6,187.6,194.5,53.6,171.1,1.08,27.2,35.9,No,Yes,Yes,Yes,Yes,Yes,None,None,None,None,Former,Occasional,Sedentary,Fair,2024-09-29
+PT-0330,81,Male,African American,Gestational,28,22,144,62,255.4,290.2,7,207.4,146.1,41.4,148.9,0.4,77.3,26.3,Yes,Yes,Yes,No,Yes,No,None,Both,Microalbuminuria,Hypertension,Former,Heavy,Sedentary,Good,2024-11-17
+PT-0331,49,Female,Asian,Type 2,20,28.8,154,63,160.7,206.1,7.4,192.7,135.1,51.8,175.5,1.31,63.3,39,No,No,Yes,No,No,No,None,Peripheral,None,None,Never,None,Light,Good,2024-08-17
+PT-0332,74,Female,Caucasian,Type 2,7,19.6,154,84,124.6,156.1,8.6,243.8,70.3,37.4,207,0.81,56,0.4,No,No,No,No,No,Yes,Mild,None,Microalbuminuria,Heart Failure,Former,Occasional,Moderate,Good,2024-03-20
+PT-0333,47,Female,African American,LADA,14,25.5,117,106,144,211.8,10.8,117,69.9,50.2,251.3,1.54,108.8,8.7,No,Yes,No,Yes,Yes,Yes,Mild,Autonomic,None,Heart Failure,Never,Occasional,Moderate,Fair,2024-01-15
+PT-0334,55,Male,Caucasian,Type 1,26,33,162,97,74.2,144.9,9.5,200.7,125.2,63.6,180.3,1.1,58.7,27,Yes,No,No,No,Yes,Yes,Mild,Peripheral,None,Hypertension,Former,None,Active,Fair,2024-07-22
+PT-0335,54,Female,Caucasian,Type 2,13,31,146,74,117.2,130.3,8.7,122.3,120.1,55,229.5,1.3,54.8,120.2,Yes,Yes,No,Yes,No,No,None,Peripheral,CKD,None,Never,Occasional,Light,Poor,2024-12-17
+PT-0336,66,Female,Caucasian,Type 2,17,25.6,174,80,128.6,160,8.8,225.4,93.5,43.1,311.1,0.62,76.9,19.4,No,Yes,No,No,No,No,Moderate,Autonomic,None,None,Never,None,Sedentary,Good,2024-12-15
+PT-0337,59,Female,Caucasian,LADA,19,37.8,156,94,124,144.1,8.1,191.2,119.9,51.1,210.5,0.81,92.1,22.1,Yes,Yes,No,No,No,No,None,None,None,None,Never,Moderate,Active,Excellent,2024-08-19
+PT-0338,31,Female,Caucasian,Type 1,6,38.9,144,105,151.1,188.1,9,211.8,170.6,45.1,204.9,0.87,71.5,50.2,No,Yes,No,No,Yes,No,None,None,None,CAD,Current,None,Moderate,Fair,2024-04-30
+PT-0339,84,Male,Caucasian,Type 1,2,28.6,132,73,112.1,160.4,4.5,160.4,139.3,48.1,58.5,1.53,104.2,37,No,Yes,Yes,Yes,No,No,None,Peripheral,None,Hypertension,Never,Occasional,Light,Poor,2024-04-29
+PT-0340,40,Female,Asian,Type 1,28,16,116,95,189.8,210.8,7.5,246.2,75.1,44.1,50,1.94,88.3,14.2,Yes,Yes,Yes,No,No,Yes,None,Peripheral,None,None,Former,None,Moderate,Poor,2024-02-06
+PT-0341,50,Male,Hispanic,Type 1,11,33.4,169,71,145,176.6,8.4,236.7,111.1,46,211.1,0.7,20.5,21.2,Yes,Yes,No,No,Yes,Yes,Moderate,Peripheral,None,Hypertension,Never,Heavy,Active,Good,2024-06-18
+PT-0342,72,Male,Asian,Type 1,20,16,103,76,144.6,174.5,5.9,218.3,86.8,50.5,172.4,1.64,61.8,9.8,Yes,Yes,No,No,Yes,No,Severe,Peripheral,None,CAD,Former,None,Moderate,Good,2025-01-01
+PT-0343,81,Male,Asian,Type 2,23,36.6,119,98,131.9,186,8.7,189.8,101.4,36.1,138.8,0.4,61,135.3,No,No,Yes,No,Yes,No,None,Both,None,None,Current,Moderate,Light,Good,2024-06-26
+PT-0344,76,Male,Asian,Type 2,27,34.5,146,68,151.2,202.6,7.6,218.2,100.5,35.8,199.5,0.5,87,5.6,Yes,Yes,Yes,No,No,No,Moderate,Both,Microalbuminuria,CAD,Never,Moderate,Moderate,Fair,2024-03-14
+PT-0345,84,Male,Asian,Type 2,25,38.3,114,94,178,213.6,11.2,166.7,98.3,31.3,175.2,0.62,10,18.6,Yes,Yes,No,No,Yes,No,Moderate,Autonomic,Macroalbuminuria,Heart Failure,Never,Heavy,Sedentary,Good,2024-11-18
+PT-0346,73,Male,Caucasian,Type 2,2,29.9,169,72,110.3,163.8,10.8,229.2,71.1,28.8,270.2,0.42,120,1,Yes,No,Yes,No,No,Yes,Severe,Autonomic,None,Heart Failure,Current,Occasional,Light,Good,2024-01-31
+PT-0347,26,Female,Hispanic,Type 1,19,26.5,146,74,118.7,157.8,7.2,261,110.5,33.4,186.9,0.4,88.3,10,No,No,No,No,No,No,None,Both,Microalbuminuria,None,Never,Occasional,Light,Fair,2024-12-01
+PT-0348,25,Male,African American,Type 2,13,26,177,77,132.9,177.5,7.7,237.8,95.4,49.9,120.2,1.31,78.7,60.7,Yes,No,No,No,No,No,Mild,None,None,None,Never,None,Sedentary,Fair,2024-09-06
+PT-0349,72,Male,Asian,Type 2,14,25.5,174,92,91.2,174.7,7.9,165.8,50,37.3,259.2,0.99,104.5,9,Yes,Yes,No,No,No,Yes,None,None,None,None,Former,None,Sedentary,Poor,2024-03-12
+PT-0350,36,Male,African American,Type 2,24,33.9,108,65,112.2,189,7.2,209.5,186.9,54.2,162.6,1.29,120,3.3,No,Yes,No,Yes,No,No,Moderate,None,None,None,Former,Occasional,Sedentary,Fair,2024-07-02
